@@ -1,24 +1,15 @@
 package numbersApi.bo;
-
-import numbersApi.parallel_run.BrowserFactory;
 import numbersApi.po.SearchPO;
-import org.openqa.selenium.WebDriver;
 
 public class SearchBO {
-    WebDriver driver = BrowserFactory.getDriver();
     public boolean test(String number){
-        SearchPO searchPO = new SearchPO(driver);
-        searchPO.clickOnSearch();
-        searchPO.send(number);
-        searchPO.submit();
+        new SearchPO()
+                .clickOnSearch()
+                .send(number)
+                .submit();
         return true;
-    };
+    }
     public boolean checkLabel(){
-        SearchPO searchPO = new SearchPO(driver);
-        if(searchPO.checkLabelForUnknownUrl()==true){
-            return true;
-        }else{
-            return false;
-        }
-    };
+        return new SearchPO().checkLabelForUnknownUrl();
+    }
 }
