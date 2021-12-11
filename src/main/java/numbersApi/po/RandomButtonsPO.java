@@ -1,28 +1,44 @@
 package numbersApi.po;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-
+import numbersApi.parallel_run.BrowserFactory;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 import java.util.concurrent.TimeUnit;
 
 public class RandomButtonsPO {
-    WebDriver driver;
-    public RandomButtonsPO(WebDriver driver){
-        this.driver=driver;
+
+    @FindBy(xpath="/html/body/div[1]/div/section[2]/div/div[3]/div[2]/ul/li[1]/a")
+    private WebElement triviaButton;
+
+    @FindBy(xpath="/html/body/div[1]/div/section[2]/div/div[3]/div[2]/ul/li[2]/a")
+    private WebElement yearButton;
+
+    @FindBy(xpath="/html/body/div[1]/div/section[2]/div/div[3]/div[2]/ul/li[3]/a")
+    private WebElement dateButton;
+
+    @FindBy(xpath="/html/body/div[1]/div/section[2]/div/div[3]/div[2]/ul/li[4]/a")
+    private WebElement mathButton;
+
+    @FindBy(id="search-text")
+    private WebElement searchInput;
+
+    public RandomButtonsPO(){
+        PageFactory.initElements(BrowserFactory.getDriver(),this);
     }
+
     public void clickRandomButton(String type){
         switch(type){
             case "Trivia":
-                driver.findElement(By.xpath("/html/body/div[1]/div/section[2]/div/div[3]/div[2]/ul/li[1]/a")).click();
+                triviaButton.click();
                 break;
             case "Year":
-                driver.findElement(By.xpath("/html/body/div[1]/div/section[2]/div/div[3]/div[2]/ul/li[2]/a")).click();
+                yearButton.click();
                 break;
             case "Date":
-                driver.findElement(By.xpath("/html/body/div[1]/div/section[2]/div/div[3]/div[2]/ul/li[3]/a")).click();
+                dateButton.click();
                 break;
             case "Math":
-                driver.findElement(By.xpath("/html/body/div[1]/div/section[2]/div/div[3]/div[2]/ul/li[4]/a")).click();
+                mathButton.click();
                 break;
 
         }
@@ -42,16 +58,14 @@ public class RandomButtonsPO {
                 type = "random/math";
                 break;
         }
+
         try{
             TimeUnit.SECONDS.sleep(1);
         }catch(InterruptedException ex){}
-        String searchText = driver.findElement(By.id("search-text")).getAttribute("value");;
-        //System.out.println(searchText);
-        //System.out.println(type);
-        if (searchText.equals(type)) {
+
+        if (searchInput.getAttribute("value").equals(type)) {
             return true;
         }else{
-            System.out.println("false");
             return false;
         }
     }
