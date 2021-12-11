@@ -1,13 +1,11 @@
 package numbersApi.bo;
 
+import numbersApi.parallel_run.BrowserFactory;
 import numbersApi.po.SearchPO;
 import org.openqa.selenium.WebDriver;
 
 public class SearchBO {
-    WebDriver driver;
-    public SearchBO(WebDriver driver){
-        this.driver = driver;
-    }
+    WebDriver driver = BrowserFactory.getDriver();
     public boolean test(String number){
         SearchPO searchPO = new SearchPO(driver);
         searchPO.clickOnSearch();

@@ -1,13 +1,11 @@
 package numbersApi.bo;
 
+import numbersApi.parallel_run.BrowserFactory;
 import numbersApi.po.RandomButtonsPO;
 import org.openqa.selenium.WebDriver;
 
 public class RandomButtonsBO {
-    WebDriver driver;
-    public RandomButtonsBO(WebDriver driver){
-        this.driver = driver;
-    }
+    WebDriver driver = BrowserFactory.getDriver();
     public boolean test(String type){
         RandomButtonsPO randomButtonsPO = new RandomButtonsPO(driver);
         randomButtonsPO.clickRandomButton(type);
