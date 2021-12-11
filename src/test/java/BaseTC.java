@@ -1,8 +1,7 @@
-import numbersApi.Driver;
+import numbersApi.base.BaseTCListener;
 import numbersApi.parallel_run.BrowserFactory;
-import org.junit.After;
-import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Listeners;
 

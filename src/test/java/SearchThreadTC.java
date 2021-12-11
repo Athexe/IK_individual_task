@@ -3,7 +3,7 @@ import numbersApi.parallel_run.BrowserFactory;
 import org.junit.Assert;
 import org.testng.annotations.Test;
 
-public class SearchThreadTC extends BaseTC{
+public class SearchThreadTC extends BaseTC {
 
     @Test(dataProvider = "browserDataProvider")
     public void SearchTestNumber(String browserName) {
