@@ -1,18 +1,9 @@
 import numbersApi.bo.SearchBO;
 import numbersApi.parallel_run.BrowserFactory;
 import org.junit.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-import org.testng.annotations.DataProvider;
 
-@Listeners({BaseTCListener.class})
-public class SearchThreadTC{
-
-    @DataProvider(parallel=true)
-    public static Object[][] browserDataProvider(){
-        return new Object[][]{{"chrome"},{"firefox"}};
-    }
+public class SearchThreadTC extends BaseTC{
 
     @Test(dataProvider = "browserDataProvider")
     public void SearchTestNumber(String browserName) {
@@ -29,10 +20,5 @@ public class SearchThreadTC{
         SearchBO searchBO = new SearchBO();
         searchBO.test("gg");
         Assert.assertTrue(searchBO.checkLabel());
-    }
-
-    @AfterMethod
-    void quitBrowser(){
-        BrowserFactory.getDriver().quit();
     }
 }
