@@ -1,4 +1,7 @@
 package numbersApi.po;
+import numbersApi.decorator.ButtonElement;
+import numbersApi.decorator.CustomDecorator;
+import numbersApi.decorator.InputElement;
 import numbersApi.parallel_run.BrowserFactory;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -8,22 +11,22 @@ import java.util.concurrent.TimeUnit;
 public class RandomButtonsPO {
 
     @FindBy(xpath="/html/body/div[1]/div/section[2]/div/div[3]/div[2]/ul/li[1]/a")
-    private WebElement triviaButton;
+    private ButtonElement triviaButton;
 
     @FindBy(xpath="/html/body/div[1]/div/section[2]/div/div[3]/div[2]/ul/li[2]/a")
-    private WebElement yearButton;
+    private ButtonElement yearButton;
 
     @FindBy(xpath="/html/body/div[1]/div/section[2]/div/div[3]/div[2]/ul/li[3]/a")
-    private WebElement dateButton;
+    private ButtonElement dateButton;
 
     @FindBy(xpath="/html/body/div[1]/div/section[2]/div/div[3]/div[2]/ul/li[4]/a")
-    private WebElement mathButton;
+    private ButtonElement mathButton;
 
     @FindBy(id="search-text")
-    private WebElement searchInput;
+    private InputElement searchInput;
 
     public RandomButtonsPO(){
-        PageFactory.initElements(BrowserFactory.getDriver(),this);
+        PageFactory.initElements(new CustomDecorator(BrowserFactory.getDriver()),this);
     }
 
     public void clickRandomButton(String type){

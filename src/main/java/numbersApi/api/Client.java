@@ -26,7 +26,7 @@ public class Client {
 
             res.setStatusCode(response.statusCode());
             res.setBody(response.body());
-            res.setHeaderMap(response.headers().map());
+            //res.setHeaderMap(response.headers().map());
             res.setTime(new Date().getTime()-start);
         } catch (IOException | InterruptedException e) {
             e.printStackTrace();
@@ -35,14 +35,6 @@ public class Client {
         return res;
     }
     public static void main(String[] args){
-        Request request = new Request();
-        request.setProtocol("http");
-        request.setHost("numbersapi.com");
-        request.setPath("24");
-        request.setMethod("GET");
 
-        Response response = new Client().send(request);
-
-        Assert.assertEquals(response.getStatusCode().intValue(),200,"invalid code");
     }
 }

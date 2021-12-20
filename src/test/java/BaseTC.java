@@ -10,7 +10,22 @@ public class BaseTC {
 
     @DataProvider(parallel=true)
     public static Object[][] browserDataProvider(){
-        return new Object[][]{{"chrome"},{"firefox"}};
+        return new Object[][]{{"chrome"},{"firefox"},{"edge"}};
+    }
+
+    @DataProvider(parallel=true)
+    public static Object[][] edgeDataProvider(){
+        return new Object[][]{{"edge"}};
+    }
+
+    @DataProvider(parallel=true)
+    public static Object[][] chromeDataProvider(){
+        return new Object[][]{{"chrome"}};
+    }
+
+    @DataProvider(parallel=true)
+    public static Object[][] firefoxDataProvider(){
+        return new Object[][]{{"firefox"}};
     }
 
     @AfterMethod

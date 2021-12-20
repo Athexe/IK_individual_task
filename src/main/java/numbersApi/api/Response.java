@@ -1,5 +1,7 @@
 package numbersApi.api;
 
+import org.json.JSONObject;
+
 import java.util.List;
 import java.util.Map;
 
@@ -16,6 +18,10 @@ public class Response {
 
     public void setBody(String body) {
         this.body = body;
+    }
+
+    public JSONObject bodyToJSON(){
+        return new JSONObject(this.body);
     }
 
     public Integer getStatusCode() {

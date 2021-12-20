@@ -4,6 +4,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import io.github.bonigarcia.wdm.managers.ChromeDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class BrowserFactory {
@@ -24,6 +25,10 @@ public class BrowserFactory {
             case "firefox" -> {
                 WebDriverManager.firefoxdriver().setup();
                 INSTANCE.set(new FirefoxDriver());
+            }
+            case "edge" ->{
+                WebDriverManager.edgedriver().setup();
+                INSTANCE.set(new EdgeDriver());
             }
             default -> throw new RuntimeException("invalid browser" + browserName);
         }

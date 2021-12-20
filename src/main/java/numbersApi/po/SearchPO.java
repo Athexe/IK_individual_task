@@ -1,4 +1,6 @@
 package numbersApi.po;
+import numbersApi.decorator.CustomDecorator;
+import numbersApi.decorator.InputElement;
 import numbersApi.parallel_run.BrowserFactory;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -8,13 +10,13 @@ import java.util.concurrent.TimeUnit;
 public class SearchPO {
 
     @FindBy(id="search-text")
-    private WebElement searchInput;
+    private InputElement searchInput;
 
     @FindBy(id="result-temporary-text")
-    private WebElement resultInput;
+    private InputElement resultInput;
 
     public SearchPO(){
-        PageFactory.initElements(BrowserFactory.getDriver(),this);
+        PageFactory.initElements(new CustomDecorator(BrowserFactory.getDriver()),this);
     }
 
     public SearchPO clickOnSearch(){
