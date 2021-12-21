@@ -2,15 +2,17 @@ package api;
 import numbersApi.api.Client;
 import numbersApi.api.Request;
 import numbersApi.api.Response;
+import numbersApi.base.BaseTCApi;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class APITest {
-    @Test
-    public void test_ResponseStatusCode(){
-        Request request = RequestRepo.getPostman("26/math");
+public class APITest extends BaseTCApi {
+
+    @Test(dataProvider = "apiStatusCodeDataProvider")
+    public void test_ResponseStatusCode(String path, int statusCode){
+        Request request = RequestRepo.getPostman(path);
         Response response = new Client().send(request);
-        Assert.assertEquals(response.getStatusCode().intValue(), 200, "invalid code");
+        Assert.assertEquals(response.getStatusCode().intValue(), statusCode, "invalid code");
     }
 
     @Test
@@ -20,12 +22,6 @@ public class APITest {
         Assert.assertEquals(response.bodyToJSON().get("number"), 50,"invalid response" );
     }
 
-    @Test
-    public void test_UnknownIfString(){
-        Request request = RequestRepo.getPostman("gg");
-        Response response = new Client().send(request);
-        Assert.assertEquals(response.getStatusCode().intValue(), 404, "invalid code");
-    }
 
     @Test
     public void test_RandomYear(){
