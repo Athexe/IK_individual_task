@@ -39,4 +39,3 @@ public class InputElement extends CustomElement {
         return getWebElement().getAttribute(value);
     }
 }
-//logging

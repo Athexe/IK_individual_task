@@ -5,6 +5,8 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Listeners;
 
+import java.util.Date;
+
 @Listeners({BaseTCListener.class})
 public class BaseTC {
 
@@ -19,7 +21,8 @@ public class BaseTC {
     }
 
     @AfterMethod
-    void quitBrowser(){
+    void screenshotAndQuitBrowser() throws Exception {
+        BrowserFactory.takeSnapShot(BrowserFactory.getDriver(), "C:/Users/Athexe/Desktop/screenshots/Test"+new Date().getTime()+".png") ;
         BrowserFactory.getDriver().quit();
     }
 }
