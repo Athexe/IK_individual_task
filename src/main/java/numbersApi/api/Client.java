@@ -12,6 +12,8 @@ public class Client {
     public Response send(Request request){
         Response res = new Response();
 
+        System.out.println(request.getProtocol()+"://"+request.getHost()+"/"+request.getPath()+"?json "+request.getMethod());
+
         HttpRequest httpRequest;
         try {
             httpRequest = HttpRequest.newBuilder().
@@ -28,14 +30,14 @@ public class Client {
             res.setBody(response.body());
             //res.setHeaderMap(response.headers().map());
             res.setTime(new Date().getTime()-start);
+
         } catch (IOException | InterruptedException e) {
             e.printStackTrace();
         }
-
+        System.out.println(res);
         return res;
     }
     public static void main(String[] args){
 
     }
 }
-//TODO logging

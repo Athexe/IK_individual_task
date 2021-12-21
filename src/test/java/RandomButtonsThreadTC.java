@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class RandomButtonsThreadTC extends BaseTC {
 
-    @Test(dataProvider = "testDataProvider")
+    @Test(dataProvider = "randomButtonsDataProvider")
     public void tryRandomButton(String id, String type){
         BrowserFactory.initDriver("chrome");
         BrowserFactory.getDriver().get("http://numbersapi.com/#"+id);
