@@ -5,35 +5,11 @@ import org.testng.annotations.Test;
 
 public class RandomButtonsThreadTC extends BaseTC {
 
-    @Test(dataProvider = "browserDataProvider")
-    public void TryRandomTriviaButton(String browserName){
-        BrowserFactory.initDriver(browserName);
-        BrowserFactory.getDriver().get("http://numbersapi.com/#42");
+    @Test(dataProvider = "testDataProvider")
+    public void tryRandomButton(String id, String type){
+        BrowserFactory.initDriver("chrome");
+        BrowserFactory.getDriver().get("http://numbersapi.com/#"+id);
         RandomButtonsBO randomButtonsBO = new RandomButtonsBO();
-        Assert.assertTrue(randomButtonsBO.test("Trivia"));
-    }
-
-    @Test(dataProvider = "browserDataProvider")
-    public void TryRandomYearButton(String browserName){
-        BrowserFactory.initDriver(browserName);
-        BrowserFactory.getDriver().get("http://numbersapi.com/#42");
-        RandomButtonsBO randomButtonsBO = new RandomButtonsBO();
-        Assert.assertTrue(randomButtonsBO.test("Year"));
-    }
-
-    @Test(dataProvider = "browserDataProvider")
-    public void TryRandomDateButton(String browserName){
-        BrowserFactory.initDriver(browserName);
-        BrowserFactory.getDriver().get("http://numbersapi.com/#42");
-        RandomButtonsBO randomButtonsBO = new RandomButtonsBO();
-        Assert.assertTrue(randomButtonsBO.test("Date"));
-    }
-
-    @Test(dataProvider = "browserDataProvider")
-    public void TryRandomMathButton(String browserName){
-        BrowserFactory.initDriver(browserName);
-        BrowserFactory.getDriver().get("http://numbersapi.com/#42");
-        RandomButtonsBO randomButtonsBO = new RandomButtonsBO();
-        Assert.assertTrue(randomButtonsBO.test("Math"));
+        Assert.assertTrue(randomButtonsBO.test(type));
     }
 }

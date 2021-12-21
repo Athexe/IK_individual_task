@@ -10,16 +10,16 @@ import java.util.concurrent.TimeUnit;
 
 public class RandomButtonsPO {
 
-    @FindBy(xpath="/html/body/div[1]/div/section[2]/div/div[3]/div[2]/ul/li[1]/a")
+    @FindBy(xpath="//*[@href=\"#random/trivia\"]")
     private ButtonElement triviaButton;
 
-    @FindBy(xpath="/html/body/div[1]/div/section[2]/div/div[3]/div[2]/ul/li[2]/a")
+    @FindBy(xpath="//*[@href=\"#random/year\"]")
     private ButtonElement yearButton;
 
-    @FindBy(xpath="/html/body/div[1]/div/section[2]/div/div[3]/div[2]/ul/li[3]/a")
+    @FindBy(xpath="//*[@href=\"#random/date\"]")
     private ButtonElement dateButton;
 
-    @FindBy(xpath="/html/body/div[1]/div/section[2]/div/div[3]/div[2]/ul/li[4]/a")
+    @FindBy(xpath="//*[@href=\"#random/math\"]")
     private ButtonElement mathButton;
 
     @FindBy(id="search-text")

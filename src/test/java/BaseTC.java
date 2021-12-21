@@ -14,18 +14,8 @@ public class BaseTC {
     }
 
     @DataProvider(parallel=true)
-    public static Object[][] edgeDataProvider(){
-        return new Object[][]{{"edge"}};
-    }
-
-    @DataProvider(parallel=true)
-    public static Object[][] chromeDataProvider(){
-        return new Object[][]{{"chrome"}};
-    }
-
-    @DataProvider(parallel=true)
-    public static Object[][] firefoxDataProvider(){
-        return new Object[][]{{"firefox"}};
+    public static Object[][] testDataProvider(){
+        return new Object[][]{{"42","Year"},{"42","Trivia"},{"42","Math"},{"2/6","Date"}};
     }
 
     @AfterMethod

@@ -39,7 +39,7 @@ public class APITest {
         Request request = RequestRepo.getPostman("50");
         Response response = new Client().send(request);
         //System.out.println(response);
-        Assert.assertEquals(response.bodyToJSON().get("number"), 50, "invalid code");
+        Assert.assertEquals(response.bodyToJSON().get("number"), 50,"invalid response" );
     }
 
     @Test

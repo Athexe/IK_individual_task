@@ -7,3 +7,4 @@ public class RandomButtonsBO {
         return new RandomButtonsPO().checkResult(type);
     }
 }
+//rename method
