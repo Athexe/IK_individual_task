@@ -9,6 +9,7 @@ public class ButtonElement extends CustomElement {
     }
 
     public void click() {
+        System.out.println("Click "+getWebElement().getAccessibleName());
         getWebElement().click();
     }
 }

@@ -12,7 +12,7 @@ public class BaseTCListener implements ITestListener {
 
     @Override
     public void onTestSuccess(ITestResult result) {
-        System.out.println("Test Success");
+        System.out.println("Test Success"+"\r\n");
         ITestListener.super.onTestSuccess(result);
     }
 
@@ -42,7 +42,7 @@ public class BaseTCListener implements ITestListener {
 
     @Override
     public void onStart(ITestContext context) {
-        System.out.println("TC Started");
+        System.out.println("TC Started"+"\r\n");
         ITestListener.super.onStart(context);
     }
 

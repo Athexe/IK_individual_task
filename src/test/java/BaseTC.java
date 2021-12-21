@@ -8,12 +8,12 @@ import org.testng.annotations.Listeners;
 @Listeners({BaseTCListener.class})
 public class BaseTC {
 
-    @DataProvider(parallel=true)
+    @DataProvider()
     public static Object[][] browserDataProvider(){
-        return new Object[][]{{"chrome"},{"firefox"},{"edge"}};
+        return new Object[][]{{"chrome"},{"edge"}};
     }
 
-    @DataProvider(parallel=true)
+    @DataProvider()
     public static Object[][] randomButtonsDataProvider(){
         return new Object[][]{{"42","Year"},{"42","Trivia"},{"42","Math"},{"2/6","Date"}};
     }
