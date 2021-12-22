@@ -1,3 +1,5 @@
+package ui;
+
 import numbersApi.bo.RandomButtonsBO;
 import org.junit.Assert;
 import org.testng.annotations.Test;

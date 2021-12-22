@@ -1,6 +1,9 @@
+package ui;
+
 import numbersApi.bo.SearchBO;
 import org.junit.Assert;
 import org.testng.annotations.Test;
+import ui.BaseTC;
 
 public class SearchThreadTC extends BaseTC {
 
