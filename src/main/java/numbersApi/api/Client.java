@@ -1,7 +1,5 @@
 package numbersApi.api;
 
-import org.testng.Assert;
-
 import java.io.IOException;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
@@ -36,8 +34,5 @@ public class Client {
         }
         System.out.println(res);
         return res;
-    }
-    public static void main(String[] args){
-
     }
 }

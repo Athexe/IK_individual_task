@@ -3,7 +3,6 @@ import numbersApi.decorator.ButtonElement;
 import numbersApi.decorator.CustomDecorator;
 import numbersApi.decorator.InputElement;
 import numbersApi.parallel_run.BrowserFactory;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import java.util.concurrent.TimeUnit;
