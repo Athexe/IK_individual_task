@@ -1,6 +1,5 @@
 package ui;
 
-import numbersApi.allure.CustomAllureListener;
 import numbersApi.base.BaseTCListener;
 import numbersApi.parallel_run.BrowserFactory;
 import org.testng.annotations.AfterMethod;
@@ -10,7 +9,7 @@ import org.testng.annotations.Listeners;
 
 import java.util.Date;
 
-@Listeners({BaseTCListener.class, CustomAllureListener.class})
+@Listeners({BaseTCListener.class})
 public class BaseTC {
 
     @DataProvider()
