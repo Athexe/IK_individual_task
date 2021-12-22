@@ -1,4 +1,5 @@
 package numbersApi.po;
+import io.qameta.allure.Step;
 import numbersApi.decorator.ButtonElement;
 import numbersApi.decorator.CustomDecorator;
 import numbersApi.decorator.InputElement;
@@ -28,6 +29,7 @@ public class RandomButtonsPO {
         PageFactory.initElements(new CustomDecorator(BrowserFactory.getDriver()),this);
     }
 
+    @Step
     public void clickRandomButton(String type){
         switch(type){
             case "Trivia":
@@ -45,6 +47,7 @@ public class RandomButtonsPO {
 
         }
     }
+    @Step
     public boolean checkResult(String type){
         switch(type){
             case("Trivia"):

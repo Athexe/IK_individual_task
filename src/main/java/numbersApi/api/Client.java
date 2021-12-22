@@ -1,5 +1,7 @@
 package numbersApi.api;
 
+import io.qameta.allure.Step;
+
 import java.io.IOException;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
@@ -7,6 +9,7 @@ import java.net.http.HttpResponse;
 import java.util.Date;
 
 public class Client {
+    @Step
     public Response send(Request request){
         Response res = new Response();
 

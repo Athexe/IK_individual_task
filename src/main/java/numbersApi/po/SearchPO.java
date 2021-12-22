@@ -1,4 +1,5 @@
 package numbersApi.po;
+import io.qameta.allure.Step;
 import numbersApi.decorator.CustomDecorator;
 import numbersApi.decorator.InputElement;
 import numbersApi.parallel_run.BrowserFactory;
@@ -18,22 +19,26 @@ public class SearchPO {
         PageFactory.initElements(new CustomDecorator(BrowserFactory.getDriver()),this);
     }
 
+    @Step
     public SearchPO clickOnSearch(){
         searchInput.click();
         return this;
     }
 
+    @Step
     public SearchPO send(String str){
         searchInput.clear();
         searchInput.sendKeys(str);
         return this;
     }
 
+    @Step
     public SearchPO submit(){
         searchInput.sendKeys("\r\n");
         return this;
     }
 
+    @Step
     public boolean checkLabelForUnknownUrl(){
         try{
             TimeUnit.SECONDS.sleep(1);

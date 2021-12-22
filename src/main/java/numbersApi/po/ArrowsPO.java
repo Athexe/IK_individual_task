@@ -1,5 +1,6 @@
 package numbersApi.po;
 
+import io.qameta.allure.Step;
 import numbersApi.decorator.ButtonElement;
 import numbersApi.decorator.CustomDecorator;
 import numbersApi.decorator.InputElement;
@@ -22,6 +23,7 @@ public class ArrowsPO {
         PageFactory.initElements(new CustomDecorator(BrowserFactory.getDriver()),this);
     }
 
+    @Step
     public void clickArrow(String type){
         switch(type){
             case "Up":
@@ -32,6 +34,7 @@ public class ArrowsPO {
                 break;
         }
     }
+    @Step
     public boolean checkResult(String type) {
         switch (type) {
             case ("Up"):
