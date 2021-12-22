@@ -1,16 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 12, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 50.173 s <<< FAILURE! - in TestSuite
-test_FoundNumber(api.APITest)  Time elapsed: 1.063 s  <<< FAILURE!
+Tests run: 12, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 49.267 s <<< FAILURE! - in TestSuite
+test_FoundNumber(api.APITest)  Time elapsed: 0.81 s  <<< FAILURE!
 java.lang.RuntimeException: init driver first
 
-test_RandomYear(api.APITest)  Time elapsed: 0.241 s  <<< FAILURE!
+test_RandomYear(api.APITest)  Time elapsed: 0.245 s  <<< FAILURE!
 java.lang.RuntimeException: init driver first
 
-test_ResponseStatusCode(api.APITest)  Time elapsed: 0.28 s  <<< FAILURE!
+test_ResponseStatusCode(api.APITest)  Time elapsed: 0.251 s  <<< FAILURE!
 java.lang.RuntimeException: init driver first
 
-test_textByNumberAndType(api.APITest)  Time elapsed: 0.248 s  <<< FAILURE!
+test_textByNumberAndType(api.APITest)  Time elapsed: 0.252 s  <<< FAILURE!
 java.lang.RuntimeException: init driver first
 

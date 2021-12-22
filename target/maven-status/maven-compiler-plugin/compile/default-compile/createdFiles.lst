@@ -16,3 +16,4 @@ numbersApi\base\BaseTCListener.class
 numbersApi\bo\SearchBO.class
 numbersApi\allure\CustomAllureListener.class
 numbersApi\api\RequestRepo.class
+numbersApi\base\BaseTCApi.class
