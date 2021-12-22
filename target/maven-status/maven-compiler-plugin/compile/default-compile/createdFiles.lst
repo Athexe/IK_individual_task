@@ -5,6 +5,7 @@ numbersApi\decorator\CustomDecorator.class
 numbersApi\parallel_run\BrowserFactory.class
 numbersApi\decorator\CustomElement.class
 numbersApi\bo\ArrowsBO.class
+numbersApi\allure\CustomAllureApiListener.class
 numbersApi\decorator\ButtonElement.class
 numbersApi\api\Response.class
 numbersApi\decorator\InputElement.class
@@ -13,5 +14,5 @@ numbersApi\po\RandomButtonsPO.class
 numbersApi\po\SearchPO.class
 numbersApi\base\BaseTCListener.class
 numbersApi\bo\SearchBO.class
+numbersApi\allure\CustomAllureListener.class
 numbersApi\api\RequestRepo.class
-numbersApi\base\BaseTCApi.class

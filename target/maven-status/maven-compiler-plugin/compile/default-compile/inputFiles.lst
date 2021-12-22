@@ -1,4 +1,5 @@
 C:\Users\Athexe\Documents\GitHub\IK_individual_task\src\main\java\numbersApi\decorator\ButtonElement.java
+C:\Users\Athexe\Documents\GitHub\IK_individual_task\src\main\java\numbersApi\allure\CustomAllureListener.java
 C:\Users\Athexe\Documents\GitHub\IK_individual_task\src\main\java\numbersApi\bo\RandomButtonsBO.java
 C:\Users\Athexe\Documents\GitHub\IK_individual_task\src\main\java\numbersApi\decorator\CustomElement.java
 C:\Users\Athexe\Documents\GitHub\IK_individual_task\src\main\java\numbersApi\api\Client.java
@@ -8,10 +9,10 @@ C:\Users\Athexe\Documents\GitHub\IK_individual_task\src\main\java\numbersApi\bo\
 C:\Users\Athexe\Documents\GitHub\IK_individual_task\src\main\java\numbersApi\api\Response.java
 C:\Users\Athexe\Documents\GitHub\IK_individual_task\src\main\java\numbersApi\parallel_run\BrowserFactory.java
 C:\Users\Athexe\Documents\GitHub\IK_individual_task\src\main\java\numbersApi\po\RandomButtonsPO.java
+C:\Users\Athexe\Documents\GitHub\IK_individual_task\src\main\java\numbersApi\allure\CustomAllureApiListener.java
 C:\Users\Athexe\Documents\GitHub\IK_individual_task\src\main\java\numbersApi\base\BaseTCListener.java
 C:\Users\Athexe\Documents\GitHub\IK_individual_task\src\main\java\numbersApi\po\ArrowsPO.java
 C:\Users\Athexe\Documents\GitHub\IK_individual_task\src\main\java\numbersApi\api\RequestRepo.java
 C:\Users\Athexe\Documents\GitHub\IK_individual_task\src\main\java\numbersApi\api\Request.java
-C:\Users\Athexe\Documents\GitHub\IK_individual_task\src\main\java\numbersApi\base\BaseTCApi.java
 C:\Users\Athexe\Documents\GitHub\IK_individual_task\src\main\java\numbersApi\decorator\CustomDecorator.java
 C:\Users\Athexe\Documents\GitHub\IK_individual_task\src\main\java\numbersApi\po\SearchPO.java

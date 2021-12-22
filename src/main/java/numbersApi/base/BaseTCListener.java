@@ -11,18 +11,6 @@ public class BaseTCListener implements ITestListener {
     }
 
     @Override
-    public void onTestSuccess(ITestResult result) {
-        System.out.println("Test Success"+"\r\n");
-        ITestListener.super.onTestSuccess(result);
-    }
-
-    @Override
-    public void onTestFailure(ITestResult result) {
-        System.out.println("Test Failed");
-        ITestListener.super.onTestFailure(result);
-    }
-
-    @Override
     public void onTestSkipped(ITestResult result) {
         System.out.println("Test Skipped");
         ITestListener.super.onTestSkipped(result);

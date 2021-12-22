@@ -1,4 +1,5 @@
 ui\SearchThreadTest.class
+api\BaseTCApi.class
 ui\BaseTC.class
 api\APITest.class
 ui\ArrowsTest.class

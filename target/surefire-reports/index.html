@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,8 +39,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Command_line_suite" class="navigator-link">
-              <span class="suite-name border-passed">Command line suite</span>
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-failed">Surefire suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,37 +50,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Command_line_suite" class="navigator-link ">
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
                     <span>[unset file name]</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Command_line_suite" class="navigator-link ">
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Command_line_suite" class="navigator-link ">
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Command_line_suite" class="navigator-link ">
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Command_line_suite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Command_line_suite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Command_line_suite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -93,81 +93,85 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">13 methods,   13 passed</span>
+                    <span class="method-stats">12 methods, 4 failed,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.APITest" class="method navigator-link" hash-for-method="test_FoundNumber">test_FoundNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.APITest" class="method navigator-link" hash-for-method="test_RandomYear">test_RandomYear</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.APITest" class="method navigator-link" hash-for-method="test_ResponseStatusCode">test_ResponseStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="api.APITest" class="method navigator-link" hash-for-method="test_textByNumberAndType">test_textByNumberAndType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods passed suite-Command_line_suite"> (hide)</a> <!-- hide-methods passed suite-Command_line_suite -->
-                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods passed suite-Command_line_suite"> (show)</a> <!-- show-methods passed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
                     </span>
-                    <div class="method-list-content passed suite-Command_line_suite">
+                    <div class="method-list-content passed suite-Surefire_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Command_line_suite" title="ui.SearchThreadTest" class="method navigator-link" hash-for-method="SearchTestNumber">SearchTestNumber</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="ui.SearchThreadTest" class="method navigator-link" hash-for-method="SearchTestNumber">SearchTestNumber</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Command_line_suite" title="ui.SearchThreadTest" class="method navigator-link" hash-for-method="SearchTestString">SearchTestString</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="ui.SearchThreadTest" class="method navigator-link" hash-for-method="SearchTestString">SearchTestString</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Command_line_suite" title="api.APITest" class="method navigator-link" hash-for-method="test_FoundNumber">test_FoundNumber</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="ui.ArrowsTest" class="method navigator-link" hash-for-method="tryRandomButton(Down)">tryRandomButton(Down)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Command_line_suite" title="api.APITest" class="method navigator-link" hash-for-method="test_RandomYear">test_RandomYear</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="ui.RandomButtonsThreadTest" class="method navigator-link" hash-for-method="tryRandomButton(Date)">tryRandomButton(Date)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Command_line_suite" title="api.APITest" class="method navigator-link" hash-for-method="test_ResponseStatusCode(gg, 404)">test_ResponseStatusCode(gg, 404)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="ui.RandomButtonsThreadTest" class="method navigator-link" hash-for-method="tryRandomButton(Math)">tryRandomButton(Math)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Command_line_suite" title="api.APITest" class="method navigator-link" hash-for-method="test_ResponseStatusCode(26/math, 200)">test_ResponseStatusCode(26/math, 200)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="ui.RandomButtonsThreadTest" class="method navigator-link" hash-for-method="tryRandomButton(Trivia)">tryRandomButton(Trivia)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Command_line_suite" title="api.APITest" class="method navigator-link" hash-for-method="test_textByNumberAndType">test_textByNumberAndType</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="ui.RandomButtonsThreadTest" class="method navigator-link" hash-for-method="tryRandomButton(Year)">tryRandomButton(Year)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Command_line_suite" title="ui.RandomButtonsThreadTest" class="method navigator-link" hash-for-method="tryRandomButton(Date)">tryRandomButton(Date)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="ui.ArrowsTest" class="method navigator-link" hash-for-method="tryRandomButton(Up)">tryRandomButton(Up)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Command_line_suite" title="ui.ArrowsTest" class="method navigator-link" hash-for-method="tryRandomButton(Down)">tryRandomButton(Down)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Command_line_suite" title="ui.ArrowsTest" class="method navigator-link" hash-for-method="tryRandomButton(Up)">tryRandomButton(Up)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Command_line_suite" title="ui.RandomButtonsThreadTest" class="method navigator-link" hash-for-method="tryRandomButton(Trivia)">tryRandomButton(Trivia)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Command_line_suite" title="ui.RandomButtonsThreadTest" class="method navigator-link" hash-for-method="tryRandomButton(Math)">tryRandomButton(Math)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Command_line_suite" title="ui.RandomButtonsThreadTest" class="method navigator-link" hash-for-method="tryRandomButton(Year)">tryRandomButton(Year)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-Command_line_suite -->
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -178,48 +182,68 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
-          <div class="suite-Command_line_suite-class-passed">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">ui.RandomButtonsThreadTest</span>
+              <img src="failed.png"/>
+              <span class="class-name">api.APITest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="tryRandomButton(Date)">
-                  </a> <!-- tryRandomButton(Date) -->
-                  <span class="method-name">tryRandomButton</span>
-                  <span class="parameters">(Date)</span>
+                  <a name="test_FoundNumber">
+                  </a> <!-- test_FoundNumber -->
+                  <span class="method-name">test_FoundNumber</span>
+                  <div class="stack-trace">java.lang.RuntimeException: init driver first
+	at numbersApi.parallel_run.BrowserFactory.getDriver(BrowserFactory.java:20)
+	at numbersApi.allure.CustomAllureListener.onTestSuccess(CustomAllureListener.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="tryRandomButton(Trivia)">
-                  </a> <!-- tryRandomButton(Trivia) -->
-                  <span class="method-name">tryRandomButton</span>
-                  <span class="parameters">(Trivia)</span>
+                  <a name="test_RandomYear">
+                  </a> <!-- test_RandomYear -->
+                  <span class="method-name">test_RandomYear</span>
+                  <div class="stack-trace">java.lang.RuntimeException: init driver first
+	at numbersApi.parallel_run.BrowserFactory.getDriver(BrowserFactory.java:20)
+	at numbersApi.allure.CustomAllureListener.onTestSuccess(CustomAllureListener.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="tryRandomButton(Math)">
-                  </a> <!-- tryRandomButton(Math) -->
-                  <span class="method-name">tryRandomButton</span>
-                  <span class="parameters">(Math)</span>
+                  <a name="test_ResponseStatusCode">
+                  </a> <!-- test_ResponseStatusCode -->
+                  <span class="method-name">test_ResponseStatusCode</span>
+                  <div class="stack-trace">java.lang.RuntimeException: init driver first
+	at numbersApi.parallel_run.BrowserFactory.getDriver(BrowserFactory.java:20)
+	at numbersApi.allure.CustomAllureListener.onTestSuccess(CustomAllureListener.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="tryRandomButton(Year)">
-                  </a> <!-- tryRandomButton(Year) -->
-                  <span class="method-name">tryRandomButton</span>
-                  <span class="parameters">(Year)</span>
+                  <a name="test_textByNumberAndType">
+                  </a> <!-- test_textByNumberAndType -->
+                  <span class="method-name">test_textByNumberAndType</span>
+                  <div class="stack-trace">java.lang.RuntimeException: init driver first
+	at numbersApi.parallel_run.BrowserFactory.getDriver(BrowserFactory.java:20)
+	at numbersApi.allure.CustomAllureListener.onTestSuccess(CustomAllureListener.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-passed -->
-          <div class="suite-Command_line_suite-class-passed">
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">ui.ArrowsTest</span>
@@ -242,8 +266,8 @@
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-passed -->
-          <div class="suite-Command_line_suite-class-passed">
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">ui.SearchThreadTest</span>
@@ -264,184 +288,175 @@
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-passed -->
-          <div class="suite-Command_line_suite-class-passed">
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">api.APITest</span>
+              <span class="class-name">ui.RandomButtonsThreadTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test_FoundNumber">
-                  </a> <!-- test_FoundNumber -->
-                  <span class="method-name">test_FoundNumber</span>
+                  <a name="tryRandomButton(Date)">
+                  </a> <!-- tryRandomButton(Date) -->
+                  <span class="method-name">tryRandomButton</span>
+                  <span class="parameters">(Date)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="test_RandomYear">
-                  </a> <!-- test_RandomYear -->
-                  <span class="method-name">test_RandomYear</span>
+                  <a name="tryRandomButton(Math)">
+                  </a> <!-- tryRandomButton(Math) -->
+                  <span class="method-name">tryRandomButton</span>
+                  <span class="parameters">(Math)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="test_ResponseStatusCode(gg, 404)">
-                  </a> <!-- test_ResponseStatusCode(gg, 404) -->
-                  <span class="method-name">test_ResponseStatusCode</span>
-                  <span class="parameters">(gg, 404)</span>
+                  <a name="tryRandomButton(Trivia)">
+                  </a> <!-- tryRandomButton(Trivia) -->
+                  <span class="method-name">tryRandomButton</span>
+                  <span class="parameters">(Trivia)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="test_ResponseStatusCode(26/math, 200)">
-                  </a> <!-- test_ResponseStatusCode(26/math, 200) -->
-                  <span class="method-name">test_ResponseStatusCode</span>
-                  <span class="parameters">(26/math, 200)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="test_textByNumberAndType">
-                  </a> <!-- test_textByNumberAndType -->
-                  <span class="method-name">test_textByNumberAndType</span>
+                  <a name="tryRandomButton(Year)">
+                  </a> <!-- tryRandomButton(Year) -->
+                  <span class="method-name">tryRandomButton</span>
+                  <span class="parameters">(Year)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-passed -->
-        </div> <!-- panel Command_line_suite -->
-        <div panel-name="test-xml-Command_line_suite" class="panel">
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Command line suite&quot; verbose=&quot;0&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Command line test&quot; verbose=&quot;0&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;api.APITest&quot;/&gt;
       &lt;class name=&quot;ui.ArrowsTest&quot;/&gt;
       &lt;class name=&quot;ui.RandomButtonsThreadTest&quot;/&gt;
       &lt;class name=&quot;ui.SearchThreadTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Command line test --&gt;
-&lt;/suite&gt; &lt;!-- Command line suite --&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Command_line_suite" class="panel">
+        <div panel-name="testlist-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Command line suite</span>
+            <span class="header-content">Tests for Surefire suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Command line test (4 classes)</span>
+                <span class="test-name">Surefire test (4 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Command_line_suite" class="panel">
+        <div panel-name="group-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Command line suite</span>
+            <span class="header-content">Groups for Surefire suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Command_line_suite" class="panel">
+        <div panel-name="times-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Command line suite</span>
+            <span class="header-content">Times for Surefire suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Command_line_suite');
-function tableData_Command_line_suite() {
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(13);
+data.addRows(12);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'SearchTestString')
 data.setCell(0, 2, 'ui.SearchThreadTest')
-data.setCell(0, 3, 1339);
+data.setCell(0, 3, 1293);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'tryRandomButton')
 data.setCell(1, 2, 'ui.RandomButtonsThreadTest')
-data.setCell(1, 3, 1235);
+data.setCell(1, 3, 1206);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'tryRandomButton')
 data.setCell(2, 2, 'ui.RandomButtonsThreadTest')
-data.setCell(2, 3, 1226);
+data.setCell(2, 3, 1200);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'tryRandomButton')
 data.setCell(3, 2, 'ui.RandomButtonsThreadTest')
-data.setCell(3, 3, 1223);
+data.setCell(3, 3, 1193);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'tryRandomButton')
 data.setCell(4, 2, 'ui.RandomButtonsThreadTest')
-data.setCell(4, 3, 1211);
+data.setCell(4, 3, 1187);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'test_FoundNumber')
 data.setCell(5, 2, 'api.APITest')
-data.setCell(5, 3, 729);
+data.setCell(5, 3, 1096);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'SearchTestNumber')
-data.setCell(6, 2, 'ui.SearchThreadTest')
-data.setCell(6, 3, 294);
+data.setCell(6, 1, 'test_ResponseStatusCode')
+data.setCell(6, 2, 'api.APITest')
+data.setCell(6, 3, 291);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'test_ResponseStatusCode')
-data.setCell(7, 2, 'api.APITest')
-data.setCell(7, 3, 256);
+data.setCell(7, 1, 'tryRandomButton')
+data.setCell(7, 2, 'ui.ArrowsTest')
+data.setCell(7, 3, 265);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'tryRandomButton')
-data.setCell(8, 2, 'ui.ArrowsTest')
-data.setCell(8, 3, 251);
+data.setCell(8, 1, 'SearchTestNumber')
+data.setCell(8, 2, 'ui.SearchThreadTest')
+data.setCell(8, 3, 261);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'test_ResponseStatusCode')
+data.setCell(9, 1, 'test_textByNumberAndType')
 data.setCell(9, 2, 'api.APITest')
-data.setCell(9, 3, 251);
+data.setCell(9, 3, 247);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'test_textByNumberAndType')
+data.setCell(10, 1, 'test_RandomYear')
 data.setCell(10, 2, 'api.APITest')
-data.setCell(10, 3, 247);
+data.setCell(10, 3, 240);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'test_RandomYear')
-data.setCell(11, 2, 'api.APITest')
-data.setCell(11, 3, 246);
-data.setCell(12, 0, 12)
-data.setCell(12, 1, 'tryRandomButton')
-data.setCell(12, 2, 'ui.ArrowsTest')
-data.setCell(12, 3, 193);
-window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
+data.setCell(11, 1, 'tryRandomButton')
+data.setCell(11, 2, 'ui.ArrowsTest')
+data.setCell(11, 3, 181);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
               <span class="suite-total-time">Total running time: 8 seconds</span>
-              <div id="times-div-Command_line_suite">
-              </div> <!-- times-div-Command_line_suite -->
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Command_line_suite" class="panel">
+        <div panel-name="reporter-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Command line suite</span>
+            <span class="header-content">Reporter output for Surefire suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Command_line_suite" class="panel">
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Command_line_suite" class="panel">
+        <div panel-name="chronological-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
@@ -449,129 +464,133 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">api.APITest</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">test_FoundNumber</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">test_RandomYear</span>
-                <span class="method-start">812 ms</span>
+                <span class="method-start">1214 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">test_ResponseStatusCode(26/math, 200)</span>
-                <span class="method-start">1068 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_ResponseStatusCode</span>
+                <span class="method-start">1460 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">test_ResponseStatusCode(gg, 404)</span>
-                <span class="method-start">1325 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">test_textByNumberAndType</span>
-                <span class="method-start">1585 ms</span>
+                <span class="method-start">1755 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">ui.ArrowsTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">initBrowserAndGetPage</span>
-                <span class="method-start">1837 ms</span>
+                <span class="method-start">2009 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">tryRandomButton(Up)</span>
-                <span class="method-start">5464 ms</span>
+                <span class="method-start">7039 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">screenshotAndQuitBrowser</span>
-                <span class="method-start">5717 ms</span>
+                <span class="method-start">8354 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initBrowserAndGetPage</span>
-                <span class="method-start">6929 ms</span>
+                <span class="method-start">9283 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">tryRandomButton(Down)</span>
-                <span class="method-start">9266 ms</span>
+                <span class="method-start">11504 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">screenshotAndQuitBrowser</span>
-                <span class="method-start">9460 ms</span>
+                <span class="method-start">12871 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">ui.RandomButtonsThreadTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">initBrowserAndGetPage</span>
-                <span class="method-start">10660 ms</span>
+                <span class="method-start">13731 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">tryRandomButton(Year)</span>
-                <span class="method-start">12952 ms</span>
+                <span class="method-start">15985 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">screenshotAndQuitBrowser</span>
-                <span class="method-start">14189 ms</span>
+                <span class="method-start">18072 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initBrowserAndGetPage</span>
-                <span class="method-start">15213 ms</span>
+                <span class="method-start">19916 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">tryRandomButton(Trivia)</span>
-                <span class="method-start">17432 ms</span>
+                <span class="method-start">22125 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">screenshotAndQuitBrowser</span>
-                <span class="method-start">18660 ms</span>
+                <span class="method-start">24165 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initBrowserAndGetPage</span>
-                <span class="method-start">19688 ms</span>
+                <span class="method-start">26032 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">tryRandomButton(Math)</span>
-                <span class="method-start">22075 ms</span>
+                <span class="method-start">28361 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">screenshotAndQuitBrowser</span>
-                <span class="method-start">23300 ms</span>
+                <span class="method-start">30363 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initBrowserAndGetPage</span>
-                <span class="method-start">24301 ms</span>
+                <span class="method-start">32151 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">tryRandomButton(Date)</span>
-                <span class="method-start">26567 ms</span>
+                <span class="method-start">34479 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">screenshotAndQuitBrowser</span>
-                <span class="method-start">27781 ms</span>
+                <span class="method-start">36465 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">ui.SearchThreadTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">initBrowserAndGetPage</span>
-                <span class="method-start">28753 ms</span>
+                <span class="method-start">38257 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">SearchTestNumber</span>
-                <span class="method-start">31001 ms</span>
+                <span class="method-start">40505 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">screenshotAndQuitBrowser</span>
-                <span class="method-start">31296 ms</span>
+                <span class="method-start">41526 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initBrowserAndGetPage</span>
-                <span class="method-start">32312 ms</span>
+                <span class="method-start">42368 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">SearchTestString</span>
-                <span class="method-start">34675 ms</span>
+                <span class="method-start">44562 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">screenshotAndQuitBrowser</span>
-                <span class="method-start">36016 ms</span>
+                <span class="method-start">46659 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
