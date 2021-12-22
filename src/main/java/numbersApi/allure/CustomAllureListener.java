@@ -24,8 +24,10 @@ public class CustomAllureListener implements ITestListener {
 
     @Override
     public void onTestSuccess(ITestResult result) {
-        Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) BrowserFactory.getDriver()).getScreenshotAs(OutputType.BYTES)));
-        Allure.addAttachment("HTML", BrowserFactory.getDriver().getPageSource());
+        screenshot();
+        htmlSource();
+        //Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) BrowserFactory.getDriver()).getScreenshotAs(OutputType.BYTES)));
+        //Allure.addAttachment("HTML", BrowserFactory.getDriver().getPageSource());
         System.out.println("Test Success"+"\r\n");
         ITestListener.super.onTestSuccess(result);
     }
