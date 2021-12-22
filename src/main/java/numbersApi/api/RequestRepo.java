@@ -1,7 +1,9 @@
 package numbersApi.api;
 
-public class RequestRepo {
+import io.qameta.allure.Step;
 
+public class RequestRepo {
+    @Step
     public static Request getPostman(String path){
         Request request = new Request();
         request.setProtocol("http");

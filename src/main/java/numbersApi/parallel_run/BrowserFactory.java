@@ -22,21 +22,8 @@ public class BrowserFactory {
         return INSTANCE.get();
     }
     public static void initDriver(String browserName){
-        switch(browserName){
-            case "chrome" -> {
-                ChromeDriverManager.getInstance().setup();
-                INSTANCE.set(new ChromeDriver());
-            }
-            case "firefox" -> {
-                WebDriverManager.firefoxdriver().setup();
-                INSTANCE.set(new FirefoxDriver());
-            }
-            case "edge" ->{
-                WebDriverManager.edgedriver().setup();
-                INSTANCE.set(new EdgeDriver());
-            }
-            default -> throw new RuntimeException("invalid browser" + browserName);
-        }
+        ChromeDriverManager.getInstance().setup();
+        INSTANCE.set(new ChromeDriver());
     }
     public static void takeSnapShot(WebDriver webdriver,String fileWithPath) throws Exception{
         TakesScreenshot scrShot =((TakesScreenshot)webdriver);

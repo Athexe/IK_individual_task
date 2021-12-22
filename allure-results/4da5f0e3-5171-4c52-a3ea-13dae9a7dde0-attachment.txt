@@ -1,0 +1,6 @@
+Response{body='{
+ "text": "50 is the approximate number of times a mother hen turns her egg in a day so the yolk does not stick to the shell.",
+ "number": 50,
+ "found": true,
+ "type": "trivia"
+}', statusCode=200, statusMessage='null', headerMap=null, time=611}

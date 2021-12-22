@@ -1,0 +1,6 @@
+Response{body='{
+ "text": "1457 is a number that does not have any digits in common with its cube.",
+ "number": 1457,
+ "found": true,
+ "type": "math"
+}', statusCode=200, statusMessage='null', headerMap=null, time=262}
