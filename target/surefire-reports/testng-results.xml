@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="8" failed="4" skipped="0">
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-22T11:45:45 EET" name="Surefire suite" finished-at="2021-12-22T11:46:33 EET" duration-ms="48054">
+  <suite started-at="2021-12-22T16:50:19 EET" name="Surefire suite" finished-at="2021-12-22T16:51:08 EET" duration-ms="49511">
     <groups>
     </groups>
-    <test started-at="2021-12-22T11:45:45 EET" name="Surefire test" finished-at="2021-12-22T11:46:33 EET" duration-ms="48054">
+    <test started-at="2021-12-22T16:50:19 EET" name="Surefire test" finished-at="2021-12-22T16:51:08 EET" duration-ms="49511">
       <class name="ui.ArrowsTest">
-        <test-method is-config="true" signature="initBrowserAndGetPage()[pri:0, instance:ui.ArrowsTest@52fc5eb1]" started-at="2021-12-22T11:45:47 EET" name="initBrowserAndGetPage" finished-at="2021-12-22T11:45:52 EET" duration-ms="4805" status="PASS">
+        <test-method is-config="true" signature="initBrowserAndGetPage()[pri:0, instance:ui.ArrowsTest@4cbd03e7]" started-at="2021-12-22T16:50:21 EET" name="initBrowserAndGetPage" finished-at="2021-12-22T16:50:27 EET" duration-ms="6122" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowserAndGetPage -->
-        <test-method signature="tryRandomButton(java.lang.String)[pri:0, instance:ui.ArrowsTest@52fc5eb1]" started-at="2021-12-22T11:45:52 EET" name="tryRandomButton" data-provider="arrowsDataProvider" finished-at="2021-12-22T11:45:52 EET" duration-ms="272" status="PASS">
+        <test-method signature="tryRandomButton(java.lang.String)[pri:0, instance:ui.ArrowsTest@4cbd03e7]" started-at="2021-12-22T16:50:27 EET" name="tryRandomButton" data-provider="arrowsDataProvider" finished-at="2021-12-22T16:50:27 EET" duration-ms="350" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,15 +22,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tryRandomButton -->
-        <test-method is-config="true" signature="screenshotAndQuitBrowser()[pri:0, instance:ui.ArrowsTest@52fc5eb1]" started-at="2021-12-22T11:45:53 EET" name="screenshotAndQuitBrowser" finished-at="2021-12-22T11:45:55 EET" duration-ms="1873" status="PASS">
+        <test-method is-config="true" signature="screenshotAndQuitBrowser()[pri:0, instance:ui.ArrowsTest@4cbd03e7]" started-at="2021-12-22T16:50:29 EET" name="screenshotAndQuitBrowser" finished-at="2021-12-22T16:50:30 EET" duration-ms="1067" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotAndQuitBrowser -->
-        <test-method is-config="true" signature="initBrowserAndGetPage()[pri:0, instance:ui.ArrowsTest@52fc5eb1]" started-at="2021-12-22T11:45:55 EET" name="initBrowserAndGetPage" finished-at="2021-12-22T11:45:57 EET" duration-ms="2244" status="PASS">
+        <test-method is-config="true" signature="initBrowserAndGetPage()[pri:0, instance:ui.ArrowsTest@4cbd03e7]" started-at="2021-12-22T16:50:30 EET" name="initBrowserAndGetPage" finished-at="2021-12-22T16:50:32 EET" duration-ms="2574" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowserAndGetPage -->
-        <test-method signature="tryRandomButton(java.lang.String)[pri:0, instance:ui.ArrowsTest@52fc5eb1]" started-at="2021-12-22T11:45:57 EET" name="tryRandomButton" data-provider="arrowsDataProvider" finished-at="2021-12-22T11:45:58 EET" duration-ms="172" status="PASS">
+        <test-method signature="tryRandomButton(java.lang.String)[pri:0, instance:ui.ArrowsTest@4cbd03e7]" started-at="2021-12-22T16:50:32 EET" name="tryRandomButton" data-provider="arrowsDataProvider" finished-at="2021-12-22T16:50:32 EET" duration-ms="205" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,43 +41,43 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tryRandomButton -->
-        <test-method is-config="true" signature="screenshotAndQuitBrowser()[pri:0, instance:ui.ArrowsTest@52fc5eb1]" started-at="2021-12-22T11:45:59 EET" name="screenshotAndQuitBrowser" finished-at="2021-12-22T11:46:00 EET" duration-ms="895" status="PASS">
+        <test-method is-config="true" signature="screenshotAndQuitBrowser()[pri:0, instance:ui.ArrowsTest@4cbd03e7]" started-at="2021-12-22T16:50:34 EET" name="screenshotAndQuitBrowser" finished-at="2021-12-22T16:50:35 EET" duration-ms="959" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotAndQuitBrowser -->
       </class> <!-- ui.ArrowsTest -->
       <class name="ui.SearchThreadTest">
-        <test-method is-config="true" signature="initBrowserAndGetPage()[pri:0, instance:ui.SearchThreadTest@4784013e]" started-at="2021-12-22T11:46:23 EET" name="initBrowserAndGetPage" finished-at="2021-12-22T11:46:26 EET" duration-ms="2334" status="PASS">
+        <test-method is-config="true" signature="initBrowserAndGetPage()[pri:0, instance:ui.SearchThreadTest@3a91d146]" started-at="2021-12-22T16:50:58 EET" name="initBrowserAndGetPage" finished-at="2021-12-22T16:51:00 EET" duration-ms="2364" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowserAndGetPage -->
-        <test-method signature="SearchTestNumber()[pri:0, instance:ui.SearchThreadTest@4784013e]" started-at="2021-12-22T11:46:26 EET" name="SearchTestNumber" finished-at="2021-12-22T11:46:26 EET" duration-ms="240" status="PASS">
+        <test-method signature="SearchTestNumber()[pri:0, instance:ui.SearchThreadTest@3a91d146]" started-at="2021-12-22T16:51:00 EET" name="SearchTestNumber" finished-at="2021-12-22T16:51:01 EET" duration-ms="313" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchTestNumber -->
-        <test-method is-config="true" signature="screenshotAndQuitBrowser()[pri:0, instance:ui.SearchThreadTest@4784013e]" started-at="2021-12-22T11:46:27 EET" name="screenshotAndQuitBrowser" finished-at="2021-12-22T11:46:28 EET" duration-ms="911" status="PASS">
+        <test-method is-config="true" signature="screenshotAndQuitBrowser()[pri:0, instance:ui.SearchThreadTest@3a91d146]" started-at="2021-12-22T16:51:01 EET" name="screenshotAndQuitBrowser" finished-at="2021-12-22T16:51:02 EET" duration-ms="1051" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotAndQuitBrowser -->
-        <test-method is-config="true" signature="initBrowserAndGetPage()[pri:0, instance:ui.SearchThreadTest@4784013e]" started-at="2021-12-22T11:46:28 EET" name="initBrowserAndGetPage" finished-at="2021-12-22T11:46:30 EET" duration-ms="2541" status="PASS">
+        <test-method is-config="true" signature="initBrowserAndGetPage()[pri:0, instance:ui.SearchThreadTest@3a91d146]" started-at="2021-12-22T16:51:02 EET" name="initBrowserAndGetPage" finished-at="2021-12-22T16:51:05 EET" duration-ms="2493" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowserAndGetPage -->
-        <test-method signature="SearchTestString()[pri:0, instance:ui.SearchThreadTest@4784013e]" started-at="2021-12-22T11:46:30 EET" name="SearchTestString" finished-at="2021-12-22T11:46:31 EET" duration-ms="1329" status="PASS">
+        <test-method signature="SearchTestString()[pri:0, instance:ui.SearchThreadTest@3a91d146]" started-at="2021-12-22T16:51:05 EET" name="SearchTestString" finished-at="2021-12-22T16:51:06 EET" duration-ms="1362" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchTestString -->
-        <test-method is-config="true" signature="screenshotAndQuitBrowser()[pri:0, instance:ui.SearchThreadTest@4784013e]" started-at="2021-12-22T11:46:32 EET" name="screenshotAndQuitBrowser" finished-at="2021-12-22T11:46:33 EET" duration-ms="884" status="PASS">
+        <test-method is-config="true" signature="screenshotAndQuitBrowser()[pri:0, instance:ui.SearchThreadTest@3a91d146]" started-at="2021-12-22T16:51:07 EET" name="screenshotAndQuitBrowser" finished-at="2021-12-22T16:51:08 EET" duration-ms="1012" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotAndQuitBrowser -->
       </class> <!-- ui.SearchThreadTest -->
       <class name="ui.RandomButtonsThreadTest">
-        <test-method is-config="true" signature="initBrowserAndGetPage()[pri:0, instance:ui.RandomButtonsThreadTest@f14e5bf]" started-at="2021-12-22T11:46:00 EET" name="initBrowserAndGetPage" finished-at="2021-12-22T11:46:02 EET" duration-ms="2297" status="PASS">
+        <test-method is-config="true" signature="initBrowserAndGetPage()[pri:0, instance:ui.RandomButtonsThreadTest@7dd00705]" started-at="2021-12-22T16:50:35 EET" name="initBrowserAndGetPage" finished-at="2021-12-22T16:50:37 EET" duration-ms="2397" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowserAndGetPage -->
-        <test-method signature="tryRandomButton(java.lang.String)[pri:0, instance:ui.RandomButtonsThreadTest@f14e5bf]" started-at="2021-12-22T11:46:02 EET" name="tryRandomButton" data-provider="randomButtonsDataProvider" finished-at="2021-12-22T11:46:03 EET" duration-ms="1212" status="PASS">
+        <test-method signature="tryRandomButton(java.lang.String)[pri:0, instance:ui.RandomButtonsThreadTest@7dd00705]" started-at="2021-12-22T16:50:37 EET" name="tryRandomButton" data-provider="randomButtonsDataProvider" finished-at="2021-12-22T16:50:38 EET" duration-ms="1256" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -88,15 +88,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tryRandomButton -->
-        <test-method is-config="true" signature="screenshotAndQuitBrowser()[pri:0, instance:ui.RandomButtonsThreadTest@f14e5bf]" started-at="2021-12-22T11:46:04 EET" name="screenshotAndQuitBrowser" finished-at="2021-12-22T11:46:06 EET" duration-ms="1857" status="PASS">
+        <test-method is-config="true" signature="screenshotAndQuitBrowser()[pri:0, instance:ui.RandomButtonsThreadTest@7dd00705]" started-at="2021-12-22T16:50:39 EET" name="screenshotAndQuitBrowser" finished-at="2021-12-22T16:50:40 EET" duration-ms="1036" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotAndQuitBrowser -->
-        <test-method is-config="true" signature="initBrowserAndGetPage()[pri:0, instance:ui.RandomButtonsThreadTest@f14e5bf]" started-at="2021-12-22T11:46:06 EET" name="initBrowserAndGetPage" finished-at="2021-12-22T11:46:08 EET" duration-ms="2294" status="PASS">
+        <test-method is-config="true" signature="initBrowserAndGetPage()[pri:0, instance:ui.RandomButtonsThreadTest@7dd00705]" started-at="2021-12-22T16:50:40 EET" name="initBrowserAndGetPage" finished-at="2021-12-22T16:50:43 EET" duration-ms="2277" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowserAndGetPage -->
-        <test-method signature="tryRandomButton(java.lang.String)[pri:0, instance:ui.RandomButtonsThreadTest@f14e5bf]" started-at="2021-12-22T11:46:08 EET" name="tryRandomButton" data-provider="randomButtonsDataProvider" finished-at="2021-12-22T11:46:09 EET" duration-ms="1217" status="PASS">
+        <test-method signature="tryRandomButton(java.lang.String)[pri:0, instance:ui.RandomButtonsThreadTest@7dd00705]" started-at="2021-12-22T16:50:43 EET" name="tryRandomButton" data-provider="randomButtonsDataProvider" finished-at="2021-12-22T16:50:44 EET" duration-ms="1293" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -107,15 +107,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tryRandomButton -->
-        <test-method is-config="true" signature="screenshotAndQuitBrowser()[pri:0, instance:ui.RandomButtonsThreadTest@f14e5bf]" started-at="2021-12-22T11:46:10 EET" name="screenshotAndQuitBrowser" finished-at="2021-12-22T11:46:12 EET" duration-ms="1890" status="PASS">
+        <test-method is-config="true" signature="screenshotAndQuitBrowser()[pri:0, instance:ui.RandomButtonsThreadTest@7dd00705]" started-at="2021-12-22T16:50:45 EET" name="screenshotAndQuitBrowser" finished-at="2021-12-22T16:50:47 EET" duration-ms="1976" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotAndQuitBrowser -->
-        <test-method is-config="true" signature="initBrowserAndGetPage()[pri:0, instance:ui.RandomButtonsThreadTest@f14e5bf]" started-at="2021-12-22T11:46:12 EET" name="initBrowserAndGetPage" finished-at="2021-12-22T11:46:14 EET" duration-ms="2331" status="PASS">
+        <test-method is-config="true" signature="initBrowserAndGetPage()[pri:0, instance:ui.RandomButtonsThreadTest@7dd00705]" started-at="2021-12-22T16:50:47 EET" name="initBrowserAndGetPage" finished-at="2021-12-22T16:50:49 EET" duration-ms="2447" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowserAndGetPage -->
-        <test-method signature="tryRandomButton(java.lang.String)[pri:0, instance:ui.RandomButtonsThreadTest@f14e5bf]" started-at="2021-12-22T11:46:14 EET" name="tryRandomButton" data-provider="randomButtonsDataProvider" finished-at="2021-12-22T11:46:15 EET" duration-ms="1219" status="PASS">
+        <test-method signature="tryRandomButton(java.lang.String)[pri:0, instance:ui.RandomButtonsThreadTest@7dd00705]" started-at="2021-12-22T16:50:49 EET" name="tryRandomButton" data-provider="randomButtonsDataProvider" finished-at="2021-12-22T16:50:50 EET" duration-ms="1240" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -126,15 +126,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tryRandomButton -->
-        <test-method is-config="true" signature="screenshotAndQuitBrowser()[pri:0, instance:ui.RandomButtonsThreadTest@f14e5bf]" started-at="2021-12-22T11:46:16 EET" name="screenshotAndQuitBrowser" finished-at="2021-12-22T11:46:17 EET" duration-ms="854" status="PASS">
+        <test-method is-config="true" signature="screenshotAndQuitBrowser()[pri:0, instance:ui.RandomButtonsThreadTest@7dd00705]" started-at="2021-12-22T16:50:51 EET" name="screenshotAndQuitBrowser" finished-at="2021-12-22T16:50:52 EET" duration-ms="1035" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotAndQuitBrowser -->
-        <test-method is-config="true" signature="initBrowserAndGetPage()[pri:0, instance:ui.RandomButtonsThreadTest@f14e5bf]" started-at="2021-12-22T11:46:17 EET" name="initBrowserAndGetPage" finished-at="2021-12-22T11:46:19 EET" duration-ms="2240" status="PASS">
+        <test-method is-config="true" signature="initBrowserAndGetPage()[pri:0, instance:ui.RandomButtonsThreadTest@7dd00705]" started-at="2021-12-22T16:50:52 EET" name="initBrowserAndGetPage" finished-at="2021-12-22T16:50:55 EET" duration-ms="2383" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowserAndGetPage -->
-        <test-method signature="tryRandomButton(java.lang.String)[pri:0, instance:ui.RandomButtonsThreadTest@f14e5bf]" started-at="2021-12-22T11:46:19 EET" name="tryRandomButton" data-provider="randomButtonsDataProvider" finished-at="2021-12-22T11:46:21 EET" duration-ms="1204" status="PASS">
+        <test-method signature="tryRandomButton(java.lang.String)[pri:0, instance:ui.RandomButtonsThreadTest@7dd00705]" started-at="2021-12-22T16:50:55 EET" name="tryRandomButton" data-provider="randomButtonsDataProvider" finished-at="2021-12-22T16:50:56 EET" duration-ms="1268" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -145,193 +145,53 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tryRandomButton -->
-        <test-method is-config="true" signature="screenshotAndQuitBrowser()[pri:0, instance:ui.RandomButtonsThreadTest@f14e5bf]" started-at="2021-12-22T11:46:21 EET" name="screenshotAndQuitBrowser" finished-at="2021-12-22T11:46:23 EET" duration-ms="1806" status="PASS">
+        <test-method is-config="true" signature="screenshotAndQuitBrowser()[pri:0, instance:ui.RandomButtonsThreadTest@7dd00705]" started-at="2021-12-22T16:50:57 EET" name="screenshotAndQuitBrowser" finished-at="2021-12-22T16:50:58 EET" duration-ms="984" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotAndQuitBrowser -->
       </class> <!-- ui.RandomButtonsThreadTest -->
       <class name="api.APITest">
-        <test-method signature="test_FoundNumber()[pri:0, instance:api.APITest@5d1e09bc]" started-at="2021-12-22T11:45:45 EET" name="test_FoundNumber" finished-at="2021-12-22T11:45:46 EET" duration-ms="980" status="FAIL">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[init driver first]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: init driver first
-at numbersApi.parallel_run.BrowserFactory.getDriver(BrowserFactory.java:20)
-at numbersApi.allure.CustomAllureListener.screenshot(CustomAllureListener.java:17)
-at numbersApi.allure.CustomAllureListener.onTestSuccess(CustomAllureListener.java:27)
-at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:100)
-at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:656)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+        <test-method signature="test_FoundNumber()[pri:0, instance:api.APITest@4c9e38]" started-at="2021-12-22T16:50:19 EET" name="test_FoundNumber" finished-at="2021-12-22T16:50:20 EET" duration-ms="880" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_FoundNumber -->
-        <test-method signature="test_RandomYear()[pri:0, instance:api.APITest@5d1e09bc]" started-at="2021-12-22T11:45:46 EET" name="test_RandomYear" finished-at="2021-12-22T11:45:47 EET" duration-ms="251" status="FAIL">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[init driver first]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: init driver first
-at numbersApi.parallel_run.BrowserFactory.getDriver(BrowserFactory.java:20)
-at numbersApi.allure.CustomAllureListener.screenshot(CustomAllureListener.java:17)
-at numbersApi.allure.CustomAllureListener.onTestSuccess(CustomAllureListener.java:27)
-at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:100)
-at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:656)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+        <test-method signature="test_RandomYear()[pri:0, instance:api.APITest@4c9e38]" started-at="2021-12-22T16:50:20 EET" name="test_RandomYear" finished-at="2021-12-22T16:50:20 EET" duration-ms="248" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_RandomYear -->
-        <test-method signature="test_ResponseStatusCode(java.lang.String,int)[pri:0, instance:api.APITest@5d1e09bc]" started-at="2021-12-22T11:45:47 EET" name="test_ResponseStatusCode" data-provider="apiStatusCodeDataProvider" finished-at="2021-12-22T11:45:47 EET" duration-ms="256" status="FAIL">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[init driver first]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: init driver first
-at numbersApi.parallel_run.BrowserFactory.getDriver(BrowserFactory.java:20)
-at numbersApi.allure.CustomAllureListener.screenshot(CustomAllureListener.java:17)
-at numbersApi.allure.CustomAllureListener.onTestSuccess(CustomAllureListener.java:27)
-at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:100)
-at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:656)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+        <test-method signature="test_ResponseStatusCode(java.lang.String,int)[pri:0, instance:api.APITest@4c9e38]" started-at="2021-12-22T16:50:20 EET" name="test_ResponseStatusCode" data-provider="apiStatusCodeDataProvider" finished-at="2021-12-22T16:50:20 EET" duration-ms="250" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[26/math]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_ResponseStatusCode -->
-        <test-method signature="test_textByNumberAndType()[pri:0, instance:api.APITest@5d1e09bc]" started-at="2021-12-22T11:45:47 EET" name="test_textByNumberAndType" finished-at="2021-12-22T11:45:47 EET" duration-ms="255" status="FAIL">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[init driver first]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: init driver first
-at numbersApi.parallel_run.BrowserFactory.getDriver(BrowserFactory.java:20)
-at numbersApi.allure.CustomAllureListener.screenshot(CustomAllureListener.java:17)
-at numbersApi.allure.CustomAllureListener.onTestSuccess(CustomAllureListener.java:27)
-at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:100)
-at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:656)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+        <test-method signature="test_ResponseStatusCode(java.lang.String,int)[pri:0, instance:api.APITest@4c9e38]" started-at="2021-12-22T16:50:20 EET" name="test_ResponseStatusCode" data-provider="apiStatusCodeDataProvider" finished-at="2021-12-22T16:50:21 EET" duration-ms="296" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[404]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_ResponseStatusCode -->
+        <test-method signature="test_textByNumberAndType()[pri:0, instance:api.APITest@4c9e38]" started-at="2021-12-22T16:50:21 EET" name="test_textByNumberAndType" finished-at="2021-12-22T16:50:21 EET" duration-ms="251" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_textByNumberAndType -->

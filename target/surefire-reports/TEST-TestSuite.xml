@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="50.115" tests="12" errors="0" skipped="0" failures="4">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="51.742" tests="13" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\Athexe\AppData\Local\Temp\surefire10780960639785338251\surefirebooter14247155843104148697.jar C:\Users\Athexe\AppData\Local\Temp\surefire10780960639785338251 2021-12-22T11-45-41_820-jvmRun1 surefire14674592083941453730tmp surefire_02993722354475492739tmp"/>
+    <property name="sun.java.command" value="C:\Users\Athexe\AppData\Local\Temp\surefire14476181916706756316\surefirebooter4911330314106276933.jar C:\Users\Athexe\AppData\Local\Temp\surefire14476181916706756316 2021-12-22T16-50-14_933-jvmRun1 surefire8362045808771852480tmp surefire_05381587371368466551tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Athexe\Documents\GitHub\IK_individual_task\target\test-classes;C:\Users\Athexe\Documents\GitHub\IK_individual_task\target\classes;C:\Users\Athexe\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\Athexe\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\Athexe\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\Athexe\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Athexe\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Athexe\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Athexe\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Athexe\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Athexe\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Athexe\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Athexe\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\Athexe\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\Athexe\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\Athexe\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\Athexe\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Athexe\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Athexe\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Athexe\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\Athexe\.m2\repository\io\qameta\allure\allure-testng\2.16.1\allure-testng-2.16.1.jar;C:\Users\Athexe\.m2\repository\io\qameta\allure\allure-java-commons\2.16.1\allure-java-commons-2.16.1.jar;C:\Users\Athexe\.m2\repository\io\qameta\allure\allure-model\2.16.1\allure-model-2.16.1.jar;C:\Users\Athexe\.m2\repository\io\qameta\allure\allure-test-filter\2.16.1\allure-test-filter-2.16.1.jar;C:\Users\Athexe\.m2\repository\org\aspectj\aspectjweaver\1.9.8.RC3\aspectjweaver-1.9.8.RC3.jar;C:\Users\Athexe\.m2\repository\com\automation-remarks\video-recorder-testng\2.0\video-recorder-testng-2.0.jar;C:\Users\Athexe\.m2\repository\com\automation-remarks\video-recorder-core\2.0\video-recorder-core-2.0.jar;C:\Users\Athexe\.m2\repository\org\aeonbits\owner\owner-java8\1.0.10\owner-java8-1.0.10.jar;C:\Users\Athexe\.m2\repository\org\aeonbits\owner\owner\1.0.10\owner-1.0.10.jar;C:\Users\Athexe\.m2\repository\org\zeroturnaround\zt-exec\1.10\zt-exec-1.10.jar;C:\Users\Athexe\.m2\repository\org\awaitility\awaitility\3.1.6\awaitility-3.1.6.jar;C:\Users\Athexe\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\Athexe\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\Athexe\.m2\repository\org\slf4j\slf4j-log4j12\1.7.32\slf4j-log4j12-1.7.32.jar;C:\Users\Athexe\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\Athexe\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Athexe\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Athexe\.m2\repository\io\github\bonigarcia\webdrivermanager\5.0.3\webdrivermanager-5.0.3.jar;C:\Users\Athexe\.m2\repository\com\google\code\gson\gson\2.8.8\gson-2.8.8.jar;C:\Users\Athexe\.m2\repository\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar;C:\Users\Athexe\.m2\repository\com\github\docker-java\docker-java\3.2.12\docker-java-3.2.12.jar;C:\Users\Athexe\.m2\repository\com\github\docker-java\docker-java-core\3.2.12\docker-java-core-3.2.12.jar;C:\Users\Athexe\.m2\repository\com\github\docker-java\docker-java-api\3.2.12\docker-java-api-3.2.12.jar;C:\Users\Athexe\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Athexe\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Athexe\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Athexe\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Athexe\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Athexe\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\Athexe\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\Athexe\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Athexe\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.12\docker-java-transport-httpclient5-3.2.12.jar;C:\Users\Athexe\.m2\repository\com\github\docker-java\docker-java-transport\3.2.12\docker-java-transport-3.2.12.jar;C:\Users\Athexe\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\Athexe\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\Athexe\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\Athexe\.m2\repository\com\google\guava\guava\30.1.1-jre\guava-30.1.1-jre.jar;C:\Users\Athexe\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Athexe\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Athexe\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Athexe\.m2\repository\org\checkerframework\checker-qual\3.8.0\checker-qual-3.8.0.jar;C:\Users\Athexe\.m2\repository\com\google\errorprone\error_prone_annotations\2.5.1\error_prone_annotations-2.5.1.jar;C:\Users\Athexe\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Athexe\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Athexe\.m2\repository\org\seleniumhq\selenium\selenium-java\4.0.0\selenium-java-4.0.0.jar;C:\Users\Athexe\.m2\repository\org\seleniumhq\selenium\selenium-api\4.0.0\selenium-api-4.0.0.jar;C:\Users\Athexe\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.0.0\selenium-chrome-driver-4.0.0.jar;C:\Users\Athexe\.m2\repository\com\google\auto\service\auto-service-annotations\1.0\auto-service-annotations-1.0.jar;C:\Users\Athexe\.m2\repository\com\google\auto\service\auto-service\1.0\auto-service-1.0.jar;C:\Users\Athexe\.m2\repository\com\google\auto\auto-common\1.0\auto-common-1.0.jar;C:\Users\Athexe\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.0.0\selenium-chromium-driver-4.0.0.jar;C:\Users\Athexe\.m2\repository\org\seleniumhq\selenium\selenium-json\4.0.0\selenium-json-4.0.0.jar;C:\Users\Athexe\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.0.0\selenium-devtools-v85-4.0.0.jar;C:\Users\Athexe\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v93\4.0.0\selenium-devtools-v93-4.0.0.jar;C:\Users\Athexe\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v94\4.0.0\selenium-devtools-v94-4.0.0.jar;C:\Users\Athexe\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v95\4.0.0\selenium-devtools-v95-4.0.0.jar;C:\Users\Athexe\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.0.0\selenium-edge-driver-4.0.0.jar;C:\Users\Athexe\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.0.0\selenium-firefox-driver-4.0.0.jar;C:\Users\Athexe\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.0.0\selenium-firefox-xpi-driver-4.0.0.jar;C:\Users\Athexe\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.0.0\selenium-ie-driver-4.0.0.jar;C:\Users\Athexe\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.0.0\selenium-opera-driver-4.0.0.jar;C:\Users\Athexe\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.0.0\selenium-remote-driver-4.0.0.jar;C:\Users\Athexe\.m2\repository\io\netty\netty-buffer\4.1.68.Final\netty-buffer-4.1.68.Final.jar;C:\Users\Athexe\.m2\repository\io\netty\netty-codec-http\4.1.67.Final\netty-codec-http-4.1.67.Final.jar;C:\Users\Athexe\.m2\repository\io\netty\netty-codec\4.1.67.Final\netty-codec-4.1.67.Final.jar;C:\Users\Athexe\.m2\repository\io\netty\netty-handler\4.1.67.Final\netty-handler-4.1.67.Final.jar;C:\Users\Athexe\.m2\repository\io\netty\netty-common\4.1.68.Final\netty-common-4.1.68.Final.jar;C:\Users\Athexe\.m2\repository\io\netty\netty-transport-native-epoll\4.1.67.Final\netty-transport-native-epoll-4.1.67.Final.jar;C:\Users\Athexe\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.67.Final\netty-transport-native-kqueue-4.1.67.Final.jar;C:\Users\Athexe\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.67.Final\netty-transport-native-unix-common-4.1.67.Final.jar;C:\Users\Athexe\.m2\repository\io\netty\netty-transport\4.1.68.Final\netty-transport-4.1.68.Final.jar;C:\Users\Athexe\.m2\repository\io\netty\netty-resolver\4.1.68.Final\netty-resolver-4.1.68.Final.jar;C:\Users\Athexe\.m2\repository\io\opentelemetry\opentelemetry-api\1.6.0\opentelemetry-api-1.6.0.jar;C:\Users\Athexe\.m2\repository\io\opentelemetry\opentelemetry-context\1.6.0\opentelemetry-context-1.6.0.jar;C:\Users\Athexe\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.6.0\opentelemetry-exporter-logging-1.6.0.jar;C:\Users\Athexe\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.6.0-alpha\opentelemetry-sdk-metrics-1.6.0-alpha.jar;C:\Users\Athexe\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.6.0\opentelemetry-sdk-common-1.6.0.jar;C:\Users\Athexe\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.6.0\opentelemetry-sdk-extension-autoconfigure-spi-1.6.0.jar;C:\Users\Athexe\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.6.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.6.0-alpha.jar;C:\Users\Athexe\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.6.0\opentelemetry-sdk-trace-1.6.0.jar;C:\Users\Athexe\.m2\repository\io\opentelemetry\opentelemetry-api-metrics\1.6.0-alpha\opentelemetry-api-metrics-1.6.0-alpha.jar;C:\Users\Athexe\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.6.0\opentelemetry-sdk-1.6.0.jar;C:\Users\Athexe\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.6.0-alpha\opentelemetry-semconv-1.6.0-alpha.jar;C:\Users\Athexe\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\Athexe\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Athexe\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Athexe\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Athexe\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Athexe\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Athexe\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Athexe\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Athexe\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Athexe\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Athexe\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Athexe\.m2\repository\org\seleniumhq\selenium\selenium-http\4.0.0\selenium-http-4.0.0.jar;C:\Users\Athexe\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.0.0\selenium-safari-driver-4.0.0.jar;C:\Users\Athexe\.m2\repository\org\seleniumhq\selenium\selenium-support\4.0.0\selenium-support-4.0.0.jar;C:\Users\Athexe\.m2\repository\org\json\json\20210307\json-20210307.jar;C:\Users\Athexe\.m2\repository\com\fasterxml\jackson-xml-databind\0.6.2\jackson-xml-databind-0.6.2.jar;C:\Users\Athexe\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.9.2\jackson-mapper-asl-1.9.2.jar;C:\Users\Athexe\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.9.2\jackson-core-asl-1.9.2.jar;C:\Users\Athexe\.m2\repository\org\codehaus\jackson\jackson-xc\1.9.2\jackson-xc-1.9.2.jar;C:\Users\Athexe\.m2\repository\org\codehaus\woodstox\stax2-api\3.1.0\stax2-api-3.1.0.jar;C:\Users\Athexe\.m2\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar;C:\Users\Athexe\.m2\repository\org\hibernate\hibernate-core\5.5.6\hibernate-core-5.5.6.jar;C:\Users\Athexe\.m2\repository\org\jboss\logging\jboss-logging\3.4.2.Final\jboss-logging-3.4.2.Final.jar;C:\Users\Athexe\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\Athexe\.m2\repository\org\javassist\javassist\3.27.0-GA\javassist-3.27.0-GA.jar;C:\Users\Athexe\.m2\repository\net\bytebuddy\byte-buddy\1.11.8\byte-buddy-1.11.8.jar;C:\Users\Athexe\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\Athexe\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\Athexe\.m2\repository\org\jboss\jandex\2.2.3.Final\jandex-2.2.3.Final.jar;C:\Users\Athexe\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\Athexe\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\Athexe\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.2.Final\hibernate-commons-annotations-5.1.2.Final.jar;C:\Users\Athexe\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\Athexe\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar;C:\Users\Athexe\.m2\repository\org\glassfish\jaxb\txw2\2.3.1\txw2-2.3.1.jar;C:\Users\Athexe\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.7\istack-commons-runtime-3.0.7.jar;C:\Users\Athexe\.m2\repository\org\jvnet\staxex\stax-ex\1.8\stax-ex-1.8.jar;C:\Users\Athexe\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.15\FastInfoset-1.2.15.jar;C:\Users\Athexe\.m2\repository\org\slf4j\slf4j-simple\1.7.5\slf4j-simple-1.7.5.jar;C:\Users\Athexe\.m2\repository\mysql\mysql-connector-java\8.0.26\mysql-connector-java-8.0.26.jar;C:\Users\Athexe\.m2\repository\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar;C:\Users\Athexe\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Athexe\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Athexe\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Athexe\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Athexe\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Athexe\AppData\Local\Temp\surefire10780960639785338251\surefirebooter14247155843104148697.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Athexe\AppData\Local\Temp\surefire14476181916706756316\surefirebooter4911330314106276933.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.1+12-LTS-39"/>
@@ -57,76 +57,17 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="test_FoundNumber" classname="api.APITest" time="0.885">
-    <failure message="init driver first" type="java.lang.RuntimeException">java.lang.RuntimeException: init driver first
-</failure>
-    <system-out><![CDATA[TC Started
-
-Test Start
-http://numbersapi.com/50?json GET
-Response{body='{
- "text": "50 is the approximate number of times a mother hen turns her egg in a day so the yolk does not stick to the shell.",
- "number": 50,
- "found": true,
- "type": "trivia"
-}', statusCode=200, statusMessage='null', headerMap=null, time=681}
-Test Failed
-]]></system-out>
-    <system-err><![CDATA[SLF4J: Class path contains multiple SLF4J bindings.
-SLF4J: Found binding in [jar:file:/C:/Users/Athexe/.m2/repository/org/slf4j/slf4j-log4j12/1.7.32/slf4j-log4j12-1.7.32.jar!/org/slf4j/impl/StaticLoggerBinder.class]
-SLF4J: Found binding in [jar:file:/C:/Users/Athexe/.m2/repository/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
-SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
-SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
-]]></system-err>
-  </testcase>
-  <testcase name="test_RandomYear" classname="api.APITest" time="0.254">
-    <failure message="init driver first" type="java.lang.RuntimeException">java.lang.RuntimeException: init driver first
-</failure>
-    <system-out><![CDATA[Test Start
-http://numbersapi.com/random/year?json GET
-Response{body='{
- "text": "999 is the year that Silesia is incorporated into territory ruled by Boleslaus I of Poland.",
- "number": 999,
- "found": true,
- "type": "year"
-}', statusCode=200, statusMessage='null', headerMap=null, time=248}
-Test Failed
-]]></system-out>
-  </testcase>
-  <testcase name="test_ResponseStatusCode" classname="api.APITest" time="0.251">
-    <failure message="init driver first" type="java.lang.RuntimeException">java.lang.RuntimeException: init driver first
-</failure>
-    <system-out><![CDATA[Test Start
-http://numbersapi.com/26/math?json GET
-Response{body='{
- "text": "26 is the only positive number to be directly between a square and a cube.",
- "number": 26,
- "found": true,
- "type": "math"
-}', statusCode=200, statusMessage='null', headerMap=null, time=244}
-Test Failed
-]]></system-out>
-  </testcase>
-  <testcase name="test_textByNumberAndType" classname="api.APITest" time="0.256">
-    <failure message="init driver first" type="java.lang.RuntimeException">java.lang.RuntimeException: init driver first
-</failure>
-    <system-out><![CDATA[Test Start
-http://numbersapi.com/1457/math?json GET
-Response{body='{
- "text": "1457 is a number that does not have any digits in common with its cube.",
- "number": 1457,
- "found": true,
- "type": "math"
-}', statusCode=200, statusMessage='null', headerMap=null, time=251}
-Test Failed
-]]></system-out>
-  </testcase>
-  <testcase name="tryRandomButton" classname="ui.ArrowsTest" time="1.406"/>
-  <testcase name="tryRandomButton" classname="ui.ArrowsTest" time="1.193"/>
-  <testcase name="tryRandomButton" classname="ui.RandomButtonsThreadTest" time="2.04"/>
-  <testcase name="tryRandomButton" classname="ui.RandomButtonsThreadTest" time="2.039"/>
-  <testcase name="tryRandomButton" classname="ui.RandomButtonsThreadTest" time="2.059"/>
-  <testcase name="tryRandomButton" classname="ui.RandomButtonsThreadTest" time="2.057"/>
-  <testcase name="SearchTestNumber" classname="ui.SearchThreadTest" time="1.072"/>
-  <testcase name="SearchTestString" classname="ui.SearchThreadTest" time="2.102"/>
+  <testcase name="test_FoundNumber" classname="api.APITest" time="0.885"/>
+  <testcase name="test_RandomYear" classname="api.APITest" time="0.248"/>
+  <testcase name="test_ResponseStatusCode" classname="api.APITest" time="0.251"/>
+  <testcase name="test_ResponseStatusCode" classname="api.APITest" time="0.298"/>
+  <testcase name="test_textByNumberAndType" classname="api.APITest" time="0.252"/>
+  <testcase name="tryRandomButton" classname="ui.ArrowsTest" time="1.568"/>
+  <testcase name="tryRandomButton" classname="ui.ArrowsTest" time="1.428"/>
+  <testcase name="tryRandomButton" classname="ui.RandomButtonsThreadTest" time="2.176"/>
+  <testcase name="tryRandomButton" classname="ui.RandomButtonsThreadTest" time="2.166"/>
+  <testcase name="tryRandomButton" classname="ui.RandomButtonsThreadTest" time="2.163"/>
+  <testcase name="tryRandomButton" classname="ui.RandomButtonsThreadTest" time="2.16"/>
+  <testcase name="SearchTestNumber" classname="ui.SearchThreadTest" time="1.202"/>
+  <testcase name="SearchTestString" classname="ui.SearchThreadTest" time="2.245"/>
 </testsuite>

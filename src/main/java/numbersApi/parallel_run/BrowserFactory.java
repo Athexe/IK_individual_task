@@ -13,7 +13,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import java.io.File;
 
 public class BrowserFactory {
-    private final static ThreadLocal<WebDriver> INSTANCE = new InheritableThreadLocal<>();
+    public final static ThreadLocal<WebDriver> INSTANCE = new InheritableThreadLocal<>();
 
     public static WebDriver getDriver(){
         if(INSTANCE.get()==null){
