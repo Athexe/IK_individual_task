@@ -1,0 +1,6 @@
+Response{body='{
+ "text": "50 is the traditional number of years in a jubilee period.",
+ "number": 50,
+ "found": true,
+ "type": "trivia"
+}', statusCode=200, statusMessage='null', headerMap=null, time=538}

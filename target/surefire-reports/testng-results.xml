@@ -2,120 +2,16 @@
 <testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-22T19:53:38 EET" name="Surefire suite" finished-at="2021-12-22T19:54:24 EET" duration-ms="45755">
+  <suite started-at="2021-12-22T21:01:24 EET" name="Surefire suite" finished-at="2021-12-22T21:02:17 EET" duration-ms="52763">
     <groups>
     </groups>
-    <test started-at="2021-12-22T19:53:38 EET" name="Surefire test" finished-at="2021-12-22T19:54:24 EET" duration-ms="45755">
-      <class name="ui.SearchThreadTest">
-        <test-method is-config="true" signature="initBrowserAndGetPage()[pri:0, instance:ui.SearchThreadTest@6ceb7b5e]" started-at="2021-12-22T19:54:14 EET" name="initBrowserAndGetPage" finished-at="2021-12-22T19:54:16 EET" duration-ms="2291" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initBrowserAndGetPage -->
-        <test-method signature="SearchTestNumber()[pri:0, instance:ui.SearchThreadTest@6ceb7b5e]" started-at="2021-12-22T19:54:16 EET" name="SearchTestNumber" finished-at="2021-12-22T19:54:16 EET" duration-ms="265" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SearchTestNumber -->
-        <test-method is-config="true" signature="screenshotAndQuitBrowser()[pri:0, instance:ui.SearchThreadTest@6ceb7b5e]" started-at="2021-12-22T19:54:17 EET" name="screenshotAndQuitBrowser" finished-at="2021-12-22T19:54:18 EET" duration-ms="959" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- screenshotAndQuitBrowser -->
-        <test-method is-config="true" signature="initBrowserAndGetPage()[pri:0, instance:ui.SearchThreadTest@6ceb7b5e]" started-at="2021-12-22T19:54:18 EET" name="initBrowserAndGetPage" finished-at="2021-12-22T19:54:20 EET" duration-ms="2255" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initBrowserAndGetPage -->
-        <test-method signature="SearchTestString()[pri:0, instance:ui.SearchThreadTest@6ceb7b5e]" started-at="2021-12-22T19:54:20 EET" name="SearchTestString" finished-at="2021-12-22T19:54:22 EET" duration-ms="1357" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SearchTestString -->
-        <test-method is-config="true" signature="screenshotAndQuitBrowser()[pri:0, instance:ui.SearchThreadTest@6ceb7b5e]" started-at="2021-12-22T19:54:22 EET" name="screenshotAndQuitBrowser" finished-at="2021-12-22T19:54:24 EET" duration-ms="1867" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- screenshotAndQuitBrowser -->
-      </class> <!-- ui.SearchThreadTest -->
-      <class name="ui.RandomButtonsThreadTest">
-        <test-method is-config="true" signature="initBrowserAndGetPage()[pri:0, instance:ui.RandomButtonsThreadTest@4b2a30d]" started-at="2021-12-22T19:53:52 EET" name="initBrowserAndGetPage" finished-at="2021-12-22T19:53:55 EET" duration-ms="2230" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initBrowserAndGetPage -->
-        <test-method signature="tryRandomButton(java.lang.String)[pri:0, instance:ui.RandomButtonsThreadTest@4b2a30d]" started-at="2021-12-22T19:53:55 EET" name="tryRandomButton" data-provider="randomButtonsDataProvider" finished-at="2021-12-22T19:53:56 EET" duration-ms="1212" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Year]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tryRandomButton -->
-        <test-method is-config="true" signature="screenshotAndQuitBrowser()[pri:0, instance:ui.RandomButtonsThreadTest@4b2a30d]" started-at="2021-12-22T19:53:57 EET" name="screenshotAndQuitBrowser" finished-at="2021-12-22T19:53:58 EET" duration-ms="874" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- screenshotAndQuitBrowser -->
-        <test-method is-config="true" signature="initBrowserAndGetPage()[pri:0, instance:ui.RandomButtonsThreadTest@4b2a30d]" started-at="2021-12-22T19:53:58 EET" name="initBrowserAndGetPage" finished-at="2021-12-22T19:54:00 EET" duration-ms="2294" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initBrowserAndGetPage -->
-        <test-method signature="tryRandomButton(java.lang.String)[pri:0, instance:ui.RandomButtonsThreadTest@4b2a30d]" started-at="2021-12-22T19:54:00 EET" name="tryRandomButton" data-provider="randomButtonsDataProvider" finished-at="2021-12-22T19:54:01 EET" duration-ms="1220" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Trivia]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tryRandomButton -->
-        <test-method is-config="true" signature="screenshotAndQuitBrowser()[pri:0, instance:ui.RandomButtonsThreadTest@4b2a30d]" started-at="2021-12-22T19:54:02 EET" name="screenshotAndQuitBrowser" finished-at="2021-12-22T19:54:03 EET" duration-ms="907" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- screenshotAndQuitBrowser -->
-        <test-method is-config="true" signature="initBrowserAndGetPage()[pri:0, instance:ui.RandomButtonsThreadTest@4b2a30d]" started-at="2021-12-22T19:54:03 EET" name="initBrowserAndGetPage" finished-at="2021-12-22T19:54:05 EET" duration-ms="2256" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initBrowserAndGetPage -->
-        <test-method signature="tryRandomButton(java.lang.String)[pri:0, instance:ui.RandomButtonsThreadTest@4b2a30d]" started-at="2021-12-22T19:54:05 EET" name="tryRandomButton" data-provider="randomButtonsDataProvider" finished-at="2021-12-22T19:54:06 EET" duration-ms="1244" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Math]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tryRandomButton -->
-        <test-method is-config="true" signature="screenshotAndQuitBrowser()[pri:0, instance:ui.RandomButtonsThreadTest@4b2a30d]" started-at="2021-12-22T19:54:07 EET" name="screenshotAndQuitBrowser" finished-at="2021-12-22T19:54:08 EET" duration-ms="927" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- screenshotAndQuitBrowser -->
-        <test-method is-config="true" signature="initBrowserAndGetPage()[pri:0, instance:ui.RandomButtonsThreadTest@4b2a30d]" started-at="2021-12-22T19:54:08 EET" name="initBrowserAndGetPage" finished-at="2021-12-22T19:54:11 EET" duration-ms="2388" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initBrowserAndGetPage -->
-        <test-method signature="tryRandomButton(java.lang.String)[pri:0, instance:ui.RandomButtonsThreadTest@4b2a30d]" started-at="2021-12-22T19:54:11 EET" name="tryRandomButton" data-provider="randomButtonsDataProvider" finished-at="2021-12-22T19:54:12 EET" duration-ms="1211" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Date]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tryRandomButton -->
-        <test-method is-config="true" signature="screenshotAndQuitBrowser()[pri:0, instance:ui.RandomButtonsThreadTest@4b2a30d]" started-at="2021-12-22T19:54:13 EET" name="screenshotAndQuitBrowser" finished-at="2021-12-22T19:54:14 EET" duration-ms="896" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- screenshotAndQuitBrowser -->
-      </class> <!-- ui.RandomButtonsThreadTest -->
+    <test started-at="2021-12-22T21:01:24 EET" name="Surefire test" finished-at="2021-12-22T21:02:17 EET" duration-ms="52763">
       <class name="ui.ArrowsTest">
-        <test-method is-config="true" signature="initBrowserAndGetPage()[pri:0, instance:ui.ArrowsTest@42c2f48c]" started-at="2021-12-22T19:53:41 EET" name="initBrowserAndGetPage" finished-at="2021-12-22T19:53:46 EET" duration-ms="5199" status="PASS">
+        <test-method is-config="true" signature="initBrowserAndGetPage()[pri:0, instance:ui.ArrowsTest@77c7ed8e]" started-at="2021-12-22T21:01:26 EET" name="initBrowserAndGetPage" finished-at="2021-12-22T21:01:32 EET" duration-ms="5659" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowserAndGetPage -->
-        <test-method signature="tryRandomButton(java.lang.String)[pri:0, instance:ui.ArrowsTest@42c2f48c]" started-at="2021-12-22T19:53:46 EET" name="tryRandomButton" data-provider="arrowsDataProvider" finished-at="2021-12-22T19:53:46 EET" duration-ms="233" status="PASS">
+        <test-method signature="tryRandomButton(java.lang.String)[pri:0, instance:ui.ArrowsTest@77c7ed8e]" started-at="2021-12-22T21:01:32 EET" name="tryRandomButton" data-provider="arrowsDataProvider" finished-at="2021-12-22T21:01:32 EET" duration-ms="263" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -126,15 +22,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tryRandomButton -->
-        <test-method is-config="true" signature="screenshotAndQuitBrowser()[pri:0, instance:ui.ArrowsTest@42c2f48c]" started-at="2021-12-22T19:53:47 EET" name="screenshotAndQuitBrowser" finished-at="2021-12-22T19:53:48 EET" duration-ms="927" status="PASS">
+        <test-method is-config="true" signature="screenshotAndQuitBrowser()[pri:0, instance:ui.ArrowsTest@77c7ed8e]" started-at="2021-12-22T21:01:33 EET" name="screenshotAndQuitBrowser" finished-at="2021-12-22T21:01:34 EET" duration-ms="1416" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotAndQuitBrowser -->
-        <test-method is-config="true" signature="initBrowserAndGetPage()[pri:0, instance:ui.ArrowsTest@42c2f48c]" started-at="2021-12-22T19:53:48 EET" name="initBrowserAndGetPage" finished-at="2021-12-22T19:53:50 EET" duration-ms="2279" status="PASS">
+        <test-method is-config="true" signature="initBrowserAndGetPage()[pri:0, instance:ui.ArrowsTest@77c7ed8e]" started-at="2021-12-22T21:01:34 EET" name="initBrowserAndGetPage" finished-at="2021-12-22T21:01:37 EET" duration-ms="2739" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowserAndGetPage -->
-        <test-method signature="tryRandomButton(java.lang.String)[pri:0, instance:ui.ArrowsTest@42c2f48c]" started-at="2021-12-22T19:53:50 EET" name="tryRandomButton" data-provider="arrowsDataProvider" finished-at="2021-12-22T19:53:50 EET" duration-ms="157" status="PASS">
+        <test-method signature="tryRandomButton(java.lang.String)[pri:0, instance:ui.ArrowsTest@77c7ed8e]" started-at="2021-12-22T21:01:37 EET" name="tryRandomButton" data-provider="arrowsDataProvider" finished-at="2021-12-22T21:01:37 EET" duration-ms="188" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -145,21 +41,125 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tryRandomButton -->
-        <test-method is-config="true" signature="screenshotAndQuitBrowser()[pri:0, instance:ui.ArrowsTest@42c2f48c]" started-at="2021-12-22T19:53:52 EET" name="screenshotAndQuitBrowser" finished-at="2021-12-22T19:53:52 EET" duration-ms="944" status="PASS">
+        <test-method is-config="true" signature="screenshotAndQuitBrowser()[pri:0, instance:ui.ArrowsTest@77c7ed8e]" started-at="2021-12-22T21:01:38 EET" name="screenshotAndQuitBrowser" finished-at="2021-12-22T21:01:40 EET" duration-ms="1372" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotAndQuitBrowser -->
       </class> <!-- ui.ArrowsTest -->
+      <class name="ui.RandomButtonsThreadTest">
+        <test-method is-config="true" signature="initBrowserAndGetPage()[pri:0, instance:ui.RandomButtonsThreadTest@3c6aa04a]" started-at="2021-12-22T21:01:40 EET" name="initBrowserAndGetPage" finished-at="2021-12-22T21:01:43 EET" duration-ms="2798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowserAndGetPage -->
+        <test-method signature="tryRandomButton(java.lang.String)[pri:0, instance:ui.RandomButtonsThreadTest@3c6aa04a]" started-at="2021-12-22T21:01:43 EET" name="tryRandomButton" data-provider="randomButtonsDataProvider" finished-at="2021-12-22T21:01:44 EET" duration-ms="1204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Year]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRandomButton -->
+        <test-method is-config="true" signature="screenshotAndQuitBrowser()[pri:0, instance:ui.RandomButtonsThreadTest@3c6aa04a]" started-at="2021-12-22T21:01:45 EET" name="screenshotAndQuitBrowser" finished-at="2021-12-22T21:01:46 EET" duration-ms="1846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotAndQuitBrowser -->
+        <test-method is-config="true" signature="initBrowserAndGetPage()[pri:0, instance:ui.RandomButtonsThreadTest@3c6aa04a]" started-at="2021-12-22T21:01:46 EET" name="initBrowserAndGetPage" finished-at="2021-12-22T21:01:49 EET" duration-ms="2688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowserAndGetPage -->
+        <test-method signature="tryRandomButton(java.lang.String)[pri:0, instance:ui.RandomButtonsThreadTest@3c6aa04a]" started-at="2021-12-22T21:01:49 EET" name="tryRandomButton" data-provider="randomButtonsDataProvider" finished-at="2021-12-22T21:01:50 EET" duration-ms="1206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Trivia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRandomButton -->
+        <test-method is-config="true" signature="screenshotAndQuitBrowser()[pri:0, instance:ui.RandomButtonsThreadTest@3c6aa04a]" started-at="2021-12-22T21:01:51 EET" name="screenshotAndQuitBrowser" finished-at="2021-12-22T21:01:53 EET" duration-ms="1851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotAndQuitBrowser -->
+        <test-method is-config="true" signature="initBrowserAndGetPage()[pri:0, instance:ui.RandomButtonsThreadTest@3c6aa04a]" started-at="2021-12-22T21:01:53 EET" name="initBrowserAndGetPage" finished-at="2021-12-22T21:01:55 EET" duration-ms="2555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowserAndGetPage -->
+        <test-method signature="tryRandomButton(java.lang.String)[pri:0, instance:ui.RandomButtonsThreadTest@3c6aa04a]" started-at="2021-12-22T21:01:56 EET" name="tryRandomButton" data-provider="randomButtonsDataProvider" finished-at="2021-12-22T21:01:57 EET" duration-ms="1175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Math]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRandomButton -->
+        <test-method is-config="true" signature="screenshotAndQuitBrowser()[pri:0, instance:ui.RandomButtonsThreadTest@3c6aa04a]" started-at="2021-12-22T21:01:58 EET" name="screenshotAndQuitBrowser" finished-at="2021-12-22T21:01:59 EET" duration-ms="1366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotAndQuitBrowser -->
+        <test-method is-config="true" signature="initBrowserAndGetPage()[pri:0, instance:ui.RandomButtonsThreadTest@3c6aa04a]" started-at="2021-12-22T21:01:59 EET" name="initBrowserAndGetPage" finished-at="2021-12-22T21:02:02 EET" duration-ms="2955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowserAndGetPage -->
+        <test-method signature="tryRandomButton(java.lang.String)[pri:0, instance:ui.RandomButtonsThreadTest@3c6aa04a]" started-at="2021-12-22T21:02:02 EET" name="tryRandomButton" data-provider="randomButtonsDataProvider" finished-at="2021-12-22T21:02:03 EET" duration-ms="1174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Date]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryRandomButton -->
+        <test-method is-config="true" signature="screenshotAndQuitBrowser()[pri:0, instance:ui.RandomButtonsThreadTest@3c6aa04a]" started-at="2021-12-22T21:02:04 EET" name="screenshotAndQuitBrowser" finished-at="2021-12-22T21:02:05 EET" duration-ms="1332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotAndQuitBrowser -->
+      </class> <!-- ui.RandomButtonsThreadTest -->
+      <class name="ui.SearchThreadTest">
+        <test-method is-config="true" signature="initBrowserAndGetPage()[pri:0, instance:ui.SearchThreadTest@5c82cd4f]" started-at="2021-12-22T21:02:05 EET" name="initBrowserAndGetPage" finished-at="2021-12-22T21:02:08 EET" duration-ms="2946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowserAndGetPage -->
+        <test-method signature="SearchTestNumber()[pri:0, instance:ui.SearchThreadTest@5c82cd4f]" started-at="2021-12-22T21:02:08 EET" name="SearchTestNumber" finished-at="2021-12-22T21:02:08 EET" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchTestNumber -->
+        <test-method is-config="true" signature="screenshotAndQuitBrowser()[pri:0, instance:ui.SearchThreadTest@5c82cd4f]" started-at="2021-12-22T21:02:09 EET" name="screenshotAndQuitBrowser" finished-at="2021-12-22T21:02:10 EET" duration-ms="1442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotAndQuitBrowser -->
+        <test-method is-config="true" signature="initBrowserAndGetPage()[pri:0, instance:ui.SearchThreadTest@5c82cd4f]" started-at="2021-12-22T21:02:10 EET" name="initBrowserAndGetPage" finished-at="2021-12-22T21:02:13 EET" duration-ms="2926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowserAndGetPage -->
+        <test-method signature="SearchTestString()[pri:0, instance:ui.SearchThreadTest@5c82cd4f]" started-at="2021-12-22T21:02:13 EET" name="SearchTestString" finished-at="2021-12-22T21:02:15 EET" duration-ms="1318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchTestString -->
+        <test-method is-config="true" signature="screenshotAndQuitBrowser()[pri:0, instance:ui.SearchThreadTest@5c82cd4f]" started-at="2021-12-22T21:02:15 EET" name="screenshotAndQuitBrowser" finished-at="2021-12-22T21:02:17 EET" duration-ms="1325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotAndQuitBrowser -->
+      </class> <!-- ui.SearchThreadTest -->
       <class name="api.APITest">
-        <test-method signature="test_FoundNumber()[pri:0, instance:api.APITest@b558294]" started-at="2021-12-22T19:53:39 EET" name="test_FoundNumber" finished-at="2021-12-22T19:53:39 EET" duration-ms="804" status="PASS">
+        <test-method signature="test_FoundNumber()[pri:0, instance:api.APITest@834831b]" started-at="2021-12-22T21:01:24 EET" name="test_FoundNumber" finished-at="2021-12-22T21:01:25 EET" duration-ms="727" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_FoundNumber -->
-        <test-method signature="test_RandomYear()[pri:0, instance:api.APITest@b558294]" started-at="2021-12-22T19:53:39 EET" name="test_RandomYear" finished-at="2021-12-22T19:53:40 EET" duration-ms="252" status="PASS">
+        <test-method signature="test_RandomYear()[pri:0, instance:api.APITest@834831b]" started-at="2021-12-22T21:01:25 EET" name="test_RandomYear" finished-at="2021-12-22T21:01:25 EET" duration-ms="255" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_RandomYear -->
-        <test-method signature="test_ResponseStatusCode(java.lang.String,int)[pri:0, instance:api.APITest@b558294]" started-at="2021-12-22T19:53:40 EET" name="test_ResponseStatusCode" data-provider="apiStatusCodeDataProvider" finished-at="2021-12-22T19:53:40 EET" duration-ms="252" status="PASS">
+        <test-method signature="test_ResponseStatusCode(java.lang.String,int)[pri:0, instance:api.APITest@834831b]" started-at="2021-12-22T21:01:25 EET" name="test_ResponseStatusCode" data-provider="apiStatusCodeDataProvider" finished-at="2021-12-22T21:01:26 EET" duration-ms="261" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -175,7 +175,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_ResponseStatusCode -->
-        <test-method signature="test_ResponseStatusCode(java.lang.String,int)[pri:0, instance:api.APITest@b558294]" started-at="2021-12-22T19:53:40 EET" name="test_ResponseStatusCode" data-provider="apiStatusCodeDataProvider" finished-at="2021-12-22T19:53:40 EET" duration-ms="284" status="PASS">
+        <test-method signature="test_ResponseStatusCode(java.lang.String,int)[pri:0, instance:api.APITest@834831b]" started-at="2021-12-22T21:01:26 EET" name="test_ResponseStatusCode" data-provider="apiStatusCodeDataProvider" finished-at="2021-12-22T21:01:26 EET" duration-ms="255" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -191,7 +191,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_ResponseStatusCode -->
-        <test-method signature="test_textByNumberAndType()[pri:0, instance:api.APITest@b558294]" started-at="2021-12-22T19:53:40 EET" name="test_textByNumberAndType" finished-at="2021-12-22T19:53:41 EET" duration-ms="270" status="PASS">
+        <test-method signature="test_textByNumberAndType()[pri:0, instance:api.APITest@834831b]" started-at="2021-12-22T21:01:26 EET" name="test_textByNumberAndType" finished-at="2021-12-22T21:01:26 EET" duration-ms="257" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_textByNumberAndType -->

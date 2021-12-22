@@ -1,0 +1,6 @@
+Response{body='{
+ "text": "26 is a repdigit in base three (222) and in base twelve (22).",
+ "number": 26,
+ "found": true,
+ "type": "math"
+}', statusCode=200, statusMessage='null', headerMap=null, time=252}
