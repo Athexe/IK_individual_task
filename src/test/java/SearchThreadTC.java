@@ -10,7 +10,7 @@ public class SearchThreadTC extends BaseTC {
         BrowserFactory.initDriver(browserName);
         BrowserFactory.getDriver().get("http://numbersapi.com/#42");
         SearchBO searchBO = new SearchBO();
-        Assert.assertTrue(searchBO.test("24"));
+        Assert.assertTrue(searchBO.enterSearchInput("24"));
     }
 
     @Test(dataProvider = "browserDataProvider")
@@ -18,7 +18,7 @@ public class SearchThreadTC extends BaseTC {
         BrowserFactory.initDriver(browserName);
         BrowserFactory.getDriver().get("http://numbersapi.com/#42");
         SearchBO searchBO = new SearchBO();
-        searchBO.test("gg");
+        searchBO.enterSearchInput("gg");
         Assert.assertTrue(searchBO.checkLabel());
     }
 }

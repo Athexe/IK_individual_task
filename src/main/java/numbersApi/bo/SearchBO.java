@@ -2,7 +2,7 @@ package numbersApi.bo;
 import numbersApi.po.SearchPO;
 
 public class SearchBO {
-    public boolean test(String number){
+    public boolean enterSearchInput(String number){
         new SearchPO()
                 .clickOnSearch()
                 .send(number)

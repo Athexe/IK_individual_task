@@ -1,8 +1,4 @@
-package api;
-
-import numbersApi.api.Request;
-
-import java.util.Map;
+package numbersApi.api;
 
 public class RequestRepo {
     public static Request getPostman(String path){

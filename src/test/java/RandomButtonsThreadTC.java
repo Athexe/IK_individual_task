@@ -10,6 +10,6 @@ public class RandomButtonsThreadTC extends BaseTC {
         BrowserFactory.initDriver("chrome");
         BrowserFactory.getDriver().get("http://numbersapi.com/#"+id);
         RandomButtonsBO randomButtonsBO = new RandomButtonsBO();
-        Assert.assertTrue(randomButtonsBO.test(type));
+        Assert.assertTrue(randomButtonsBO.pressButtonAndCheckResult(type));
     }
 }
